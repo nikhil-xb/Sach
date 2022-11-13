@@ -34,9 +34,10 @@ export default RepositoryPage
 
 export const gitHubQuery = graphql`
   {
-    githubData {
-      data {
-        viewer {
+  githubData{
+    data {
+	viewer {
+	  name
           avatarUrl
           repositories {
             nodes {

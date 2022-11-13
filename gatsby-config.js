@@ -75,8 +75,7 @@ module.exports = {
         token: process.env.GATSBY_GITHUB_API_TOKEN,
         graphQLQuery: data.githubApiQuery,
         variables: data.githubApiVariables,
-      },
-    },
+      }, },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
     {
       resolve: `gatsby-plugin-google-analytics`,
