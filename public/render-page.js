@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"), require("fs"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/kebabCase.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"), require("fs"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js", "fs", "/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/kebabCase.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js", "fs", "/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js", "/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"), require("fs"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/kebabCase.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"), require("fs"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"), require("/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"], root["fs"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/kebabCase.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_kebabCase__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
+		root["lib"] = factory(root["/home/nikhil/Desktop/Sachai/node_modules/@reach/router/index.js"], root["fs"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/concat.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/flatten.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/get.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/isObject.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/merge.js"], root["/home/nikhil/Desktop/Sachai/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -103,7 +103,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules/react-hot-loader/root.js")
+const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules/gatsby/node_modules/react-hot-loader/root.js")
   // prefer default export if available
   const preferDefault = m => (m && m.default) || m
   
@@ -111,9 +111,7 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-blog-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/blog.js */ "./src/pages/blog.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
-  "component---src-templates-blogs-post-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/blogs/post.js */ "./src/templates/blogs/post.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
 
@@ -176,7 +174,8 @@ var plugins = [{
   options: {
     "plugins": []
   }
-}]; // During bootstrap, we write requires at top of this file which looks like:
+}];
+// During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
 //     plugin: require("/path/to/plugin1/gatsby-ssr.js"),
@@ -188,35 +187,32 @@ var plugins = [{
 //   },
 // ]
 
-const apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js"); // Run the specified API in any plugins that have implemented it
+const apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js");
 
-
+// Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
     console.log(`This API doesn't exist`, api);
-  } // Run each plugin in series.
+  }
+
+  // Run each plugin in series.
   // eslint-disable-next-line no-undef
-
-
   let results = plugins.map(plugin => {
     if (!plugin.plugin[api]) {
       return undefined;
     }
-
     const result = plugin.plugin[api](args, plugin.options);
-
     if (result && argTransform) {
       args = argTransform({
         args,
         result
       });
     }
-
     return result;
-  }); // Filter out undefined results.
+  });
 
+  // Filter out undefined results.
   results = results.filter(result => typeof result !== `undefined`);
-
   if (results.length > 0) {
     return results;
   } else {
@@ -277,6 +273,7 @@ module.exports = (api, args, defaultReturn, argTransform) => {
  * }
  */
 exports.replaceRenderer = true;
+
 /**
  * Called after every page Gatsby server renders while building HTML so you can
  * set head and body components to be rendered in your `html.js`.
@@ -339,8 +336,8 @@ exports.replaceRenderer = true;
  *   setBodyAttributes(BodyAttributes)
  * }
  */
-
 exports.onRenderBody = true;
+
 /**
  * Called after every page Gatsby server renders while building HTML so you can
  * replace head components to be rendered in your `html.js`. This is useful if
@@ -378,8 +375,8 @@ exports.onRenderBody = true;
  *   replaceHeadComponents(headComponents)
  * }
  */
-
 exports.onPreRenderHTML = true;
+
 /**
  * Allow a plugin to wrap the page element.
  *
@@ -405,8 +402,8 @@ exports.onPreRenderHTML = true;
  *   return <Layout {...props}>{element}</Layout>
  * }
  */
-
 exports.wrapPageElement = true;
+
 /**
  * Allow a plugin to wrap the root element.
  *
@@ -436,7 +433,6 @@ exports.wrapPageElement = true;
  *   )
  * }
  */
-
 exports.wrapRootElement = true;
 
 /***/ }),
@@ -505,7 +501,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
@@ -526,13 +521,11 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     this.handlePagePathSearch = this.handlePagePathSearch.bind(this);
     this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
   }
-
   showCustom404() {
     this.setState({
       showCustom404: true
     });
   }
-
   handleSearchTermChange(event) {
     const searchValue = event.target.value;
     this.setSearchUrl(searchValue);
@@ -540,7 +533,6 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       pagePathSearchTerms: searchValue
     });
   }
-
   handlePagePathSearch(event) {
     event.preventDefault();
     const allPagePaths = [...this.state.initPagePaths];
@@ -548,12 +540,10 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       pagePaths: this.getFilteredPagePaths(allPagePaths, this.state.pagePathSearchTerms)
     });
   }
-
   getFilteredPagePaths(allPagePaths, pagePathSearchTerms) {
     const searchTerm = new RegExp(`${pagePathSearchTerms}`);
     return allPagePaths.filter(pagePath => searchTerm.test(pagePath));
   }
-
   setSearchUrl(searchValue) {
     const {
       location: {
@@ -564,20 +554,17 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     const searchMap = query_string__WEBPACK_IMPORTED_MODULE_3___default.a.parse(search);
     searchMap.filter = searchValue;
     const newSearch = query_string__WEBPACK_IMPORTED_MODULE_3___default.a.stringify(searchMap);
-
     if (search !== `?${newSearch}`) {
       Object(gatsby__WEBPACK_IMPORTED_MODULE_2__["navigate"])(`${pathname}?${newSearch}`, {
         replace: true
       });
     }
   }
-
   render() {
     const {
       pathname
     } = this.props.location;
     let newFilePath;
-
     if (pathname === `/`) {
       newFilePath = `src/pages/index.js`;
     } else if (pathname.slice(-1) === `/`) {
@@ -585,7 +572,6 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     } else {
       newFilePath = `src/pages${pathname}.js`;
     }
-
     return this.state.showCustom404 ? this.props.custom404 : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Gatsby.js development 404 page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, `There's not a page yet at `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", null, pathname)), this.props.custom404 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       onClick: this.showCustom404
     }, "Preview custom 404 page")) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, `A custom 404 page wasn't detected - if you would like to add one, create a component in your site directory at `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", null, "src/pages/404.js"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Create a React.js component in your site directory at", ` `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("code", null, newFilePath), ` `, "and this page will automatically refresh to show the new page component you created."), this.state.initPagePaths.length > 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "If you were trying to reach another page, perhaps you can find it below."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Pages (", this.state.pagePaths.length != this.state.initPagePaths.length ? `${this.state.pagePaths.length}/${this.state.initPagePaths.length}` : this.state.initPagePaths.length, ")"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -609,9 +595,7 @@ class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       }
     }, "... and ", this.state.pagePaths.length - 100, " more."))));
   }
-
 }
-
 Dev404Page.propTypes = {
   data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
   custom404: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.element,
@@ -661,36 +645,35 @@ __webpack_require__.r(__webpack_exports__);
 
 const pathCache = new Map();
 let matchPaths = [];
-
 const trimPathname = rawPathname => {
-  const pathname = decodeURIComponent(rawPathname); // Remove the pathPrefix from the pathname.
-
-  const trimmedPathname = Object(_strip_prefix__WEBPACK_IMPORTED_MODULE_1__["default"])(pathname, "") // Remove any hashfragment
-  .split(`#`)[0] // Remove search query
+  const pathname = decodeURIComponent(rawPathname);
+  // Remove the pathPrefix from the pathname.
+  const trimmedPathname = Object(_strip_prefix__WEBPACK_IMPORTED_MODULE_1__["default"])(pathname, "")
+  // Remove any hashfragment
+  .split(`#`)[0]
+  // Remove search query
   .split(`?`)[0];
   return trimmedPathname;
 };
-
 function absolutify(path) {
   // If it's already absolute, return as-is
   if (path.startsWith(`/`) || path.startsWith(`https://`) || path.startsWith(`http://`)) {
     return path;
-  } // Calculate path relative to current location, adding a trailing slash to
+  }
+  // Calculate path relative to current location, adding a trailing slash to
   // match behavior of @reach/router
-
-
   return new URL(path, window.location.href + (window.location.href.endsWith(`/`) ? `` : `/`)).pathname;
 }
+
 /**
  * Set list of matchPaths
  *
  * @param {Array<{path: string, matchPath: string}>} value collection of matchPaths
  */
-
-
 const setMatchPaths = value => {
   matchPaths = value;
 };
+
 /**
  * Return a matchpath url
  * if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
@@ -699,7 +682,6 @@ const setMatchPaths = value => {
  * @param {string} rawPathname A raw pathname
  * @return {string|null}
  */
-
 const findMatchPath = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
   const pickPaths = matchPaths.map(({
@@ -712,13 +694,12 @@ const findMatchPath = rawPathname => {
     };
   });
   const path = Object(_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__["pick"])(pickPaths, trimmedPathname);
-
   if (path) {
     return Object(_normalize_page_path__WEBPACK_IMPORTED_MODULE_2__["default"])(path.route.originalPath);
   }
-
   return null;
 };
+
 /**
  * Return a matchpath params from reach/router rules
  * if `match-paths.json` contains `{ ":bar/*foo" }`, and the path is /baz/zaz/zoo
@@ -728,7 +709,6 @@ const findMatchPath = rawPathname => {
  * @param {string} rawPathname A raw pathname
  * @return {object}
  */
-
 const grabMatchParams = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
   const pickPaths = matchPaths.map(({
@@ -741,13 +721,13 @@ const grabMatchParams = rawPathname => {
     };
   });
   const path = Object(_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__["pick"])(pickPaths, trimmedPathname);
-
   if (path) {
     return path.params;
   }
-
   return {};
-}; // Given a raw URL path, returns the cleaned version of it (trim off
+};
+
+// Given a raw URL path, returns the cleaned version of it (trim off
 // `#` and query params), or if it matches an entry in
 // `match-paths.json`, its matched path is returned
 //
@@ -755,23 +735,19 @@ const grabMatchParams = rawPathname => {
 //
 // Or if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
 // `/foo?bar=far` => `/page1`
-
 const findPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
-
   if (pathCache.has(trimmedPathname)) {
     return pathCache.get(trimmedPathname);
   }
-
   let foundPath = findMatchPath(trimmedPathname);
-
   if (!foundPath) {
     foundPath = cleanPath(rawPathname);
   }
-
   pathCache.set(trimmedPathname, foundPath);
   return foundPath;
 };
+
 /**
  * Clean a url and converts /index.html => /
  * E.g. `/foo?bar=far` => `/foo`
@@ -779,15 +755,12 @@ const findPath = rawPathname => {
  * @param {string} rawPathname A raw pathname
  * @return {string}
  */
-
 const cleanPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
   let foundPath = trimmedPathname;
-
   if (foundPath === `/index.html`) {
     foundPath = `/`;
   }
-
   foundPath = Object(_normalize_page_path__WEBPACK_IMPORTED_MODULE_2__["default"])(foundPath);
   return foundPath;
 };
@@ -845,7 +818,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const prefetchPathname = _loader__WEBPACK_IMPORTED_MODULE_5__["default"].enqueue;
 const StaticQueryContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext({});
-
 function StaticQueryDataRenderer({
   staticQueryData,
   data,
@@ -855,7 +827,6 @@ function StaticQueryDataRenderer({
   const finalData = data ? data.data : staticQueryData[query] && staticQueryData[query].data;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, finalData && render(finalData), !finalData && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Loading (StaticQuery)"));
 }
-
 const StaticQuery = props => {
   const {
     data,
@@ -870,18 +841,16 @@ const StaticQuery = props => {
     staticQueryData: staticQueryData
   }));
 };
-
 const useStaticQuery = query => {
   var _context$query;
-
   if (typeof react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext !== `function` && "development" === `development`) {
     throw new Error(`You're likely using a version of React that doesn't support Hooks\n` + `Please update React and ReactDOM to 16.8.0 or later to use the useStaticQuery hook.`);
   }
+  const context = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(StaticQueryContext);
 
-  const context = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(StaticQueryContext); // query is a stringified number like `3303882` when wrapped with graphql, If a user forgets
+  // query is a stringified number like `3303882` when wrapped with graphql, If a user forgets
   // to wrap the query in a grqphql, then casting it to a Number results in `NaN` allowing us to
   // catch the misuse of the API and give proper direction
-
   if (isNaN(Number(query))) {
     throw new Error(`useStaticQuery was called with a string but expects to be called using \`graphql\`. Try this:
 
@@ -890,25 +859,21 @@ import { useStaticQuery, graphql } from 'gatsby';
 useStaticQuery(graphql\`${query}\`);
 `);
   }
-
   if ((_context$query = context[query]) !== null && _context$query !== void 0 && _context$query.data) {
     return context[query].data;
   } else {
     throw new Error(`The result of this StaticQuery could not be fetched.\n\n` + `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` + `please open an issue in https://github.com/gatsbyjs/gatsby/issues`);
   }
 };
-
 StaticQuery.propTypes = {
   data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
   query: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   render: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-
 function graphql() {
   throw new Error(`It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` + `are supposed to only be evaluated at compile time, and then compiled away. ` + `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` + `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`);
 }
-
 
 
 /***/ }),
@@ -934,64 +899,53 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /**
  * Available resource loading statuses
  */
-
 const PageResourceStatus = {
   /**
    * At least one of critical resources failed to load
    */
   Error: `error`,
-
   /**
    * Resources loaded successfully
    */
   Success: `success`
 };
-
 const preferDefault = m => m && m.default || m;
-
 const stripSurroundingSlashes = s => {
   s = s[0] === `/` ? s.slice(1) : s;
   s = s.endsWith(`/`) ? s.slice(0, -1) : s;
   return s;
 };
-
 const createPageDataUrl = path => {
   const fixedPath = path === `/` ? `index` : stripSurroundingSlashes(path);
   return `${""}/page-data/${fixedPath}/page-data.json`;
 };
-
 function doFetch(url, method = `GET`) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.open(method, url, true);
-
     req.onreadystatechange = () => {
       if (req.readyState == 4) {
         resolve(req);
       }
     };
-
     req.send(null);
   });
 }
-
 const doesConnectionSupportPrefetch = () => {
   if (`connection` in navigator && typeof navigator.connection !== `undefined`) {
     if ((navigator.connection.effectiveType || ``).includes(`2g`)) {
       return false;
     }
-
     if (navigator.connection.saveData) {
       return false;
     }
   }
-
   return true;
 };
-
 const toPageResources = (pageData, component = null) => {
   const page = {
     componentChunkName: pageData.componentChunkName,
@@ -1006,7 +960,6 @@ const toPageResources = (pageData, component = null) => {
     page
   };
 };
-
 class BaseLoader {
   constructor(loadComponent, matchPaths) {
     this.inFlightNetworkRequests = new Map();
@@ -1034,16 +987,14 @@ class BaseLoader {
     this.loadComponent = loadComponent;
     Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["setMatchPaths"])(matchPaths);
   }
-
   memoizedGet(url) {
     let inFlightPromise = this.inFlightNetworkRequests.get(url);
-
     if (!inFlightPromise) {
       inFlightPromise = doFetch(url, `GET`);
       this.inFlightNetworkRequests.set(url, inFlightPromise);
-    } // Prefer duplication with then + catch over .finally to prevent problems in ie11 + firefox
+    }
 
-
+    // Prefer duplication with then + catch over .finally to prevent problems in ie11 + firefox
     return inFlightPromise.then(response => {
       this.inFlightNetworkRequests.delete(url);
       return response;
@@ -1052,12 +1003,10 @@ class BaseLoader {
       throw err;
     });
   }
-
   setApiRunner(apiRunner) {
     this.apiRunner = apiRunner;
     this.prefetchDisabled = apiRunner(`disableCorePrefetching`).some(a => a);
   }
-
   fetchPageDataJson(loadObj) {
     const {
       pagePath,
@@ -1068,73 +1017,69 @@ class BaseLoader {
       const {
         status,
         responseText
-      } = req; // Handle 200
+      } = req;
 
+      // Handle 200
       if (status === 200) {
         try {
           const jsonPayload = JSON.parse(responseText);
-
           if (jsonPayload.path === undefined) {
             throw new Error(`not a valid pageData response`);
           }
-
           return Object.assign(loadObj, {
             status: PageResourceStatus.Success,
             payload: jsonPayload
           });
-        } catch (err) {// continue regardless of error
+        } catch (err) {
+          // continue regardless of error
         }
-      } // Handle 404
+      }
 
-
+      // Handle 404
       if (status === 404 || status === 200) {
         // If the request was for a 404 page and it doesn't exist, we're done
         if (pagePath === `/404.html`) {
           return Object.assign(loadObj, {
             status: PageResourceStatus.Error
           });
-        } // Need some code here to cache the 404 request. In case
+        }
+
+        // Need some code here to cache the 404 request. In case
         // multiple loadPageDataJsons result in 404s
-
-
         return this.fetchPageDataJson(Object.assign(loadObj, {
           pagePath: `/404.html`,
           notFound: true
         }));
-      } // handle 500 response (Unrecoverable)
+      }
 
-
+      // handle 500 response (Unrecoverable)
       if (status === 500) {
         return Object.assign(loadObj, {
           status: PageResourceStatus.Error
         });
-      } // Handle everything else, including status === 0, and 503s. Should retry
+      }
 
-
+      // Handle everything else, including status === 0, and 503s. Should retry
       if (retries < 3) {
         return this.fetchPageDataJson(Object.assign(loadObj, {
           retries: retries + 1
         }));
-      } // Retried 3 times already, result is an error.
+      }
 
-
+      // Retried 3 times already, result is an error.
       return Object.assign(loadObj, {
         status: PageResourceStatus.Error
       });
     });
   }
-
   loadPageDataJson(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(rawPath);
-
     if (this.pageDataDb.has(pagePath)) {
       const pageData = this.pageDataDb.get(pagePath);
-
       if (true) {
         return Promise.resolve(pageData);
       }
     }
-
     return this.fetchPageDataJson({
       pagePath
     }).then(pageData => {
@@ -1142,36 +1087,29 @@ class BaseLoader {
       return pageData;
     });
   }
-
   findMatchPath(rawPath) {
     return Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findMatchPath"])(rawPath);
-  } // TODO check all uses of this and whether they use undefined for page resources not exist
+  }
 
-
+  // TODO check all uses of this and whether they use undefined for page resources not exist
   loadPage(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(rawPath);
-
     if (this.pageDb.has(pagePath)) {
       const page = this.pageDb.get(pagePath);
-
       if (true) {
         return Promise.resolve(page.payload);
       }
     }
-
     if (this.inFlightDb.has(pagePath)) {
       return this.inFlightDb.get(pagePath);
     }
-
     const inFlightPromise = Promise.all([this.loadAppData(), this.loadPageDataJson(pagePath)]).then(allData => {
       const result = allData[1];
-
       if (result.status === PageResourceStatus.Error) {
         return {
           status: PageResourceStatus.Error
         };
       }
-
       let pageData = result.payload;
       const {
         componentChunkName,
@@ -1181,23 +1119,19 @@ class BaseLoader {
       const componentChunkPromise = this.loadComponent(componentChunkName).then(component => {
         finalResult.createdAt = new Date();
         let pageResources;
-
         if (!component) {
           finalResult.status = PageResourceStatus.Error;
         } else {
           finalResult.status = PageResourceStatus.Success;
-
           if (result.notFound === true) {
             finalResult.notFound = true;
           }
-
           pageData = Object.assign(pageData, {
             webpackCompilationHash: allData[0] ? allData[0].webpackCompilationHash : ``
           });
           pageResources = toPageResources(pageData, component);
-        } // undefined if final result is an error
-
-
+        }
+        // undefined if final result is an error
         return pageResources;
       });
       const staticQueryBatchPromise = Promise.all(staticQueryHashes.map(staticQueryHash => {
@@ -1209,7 +1143,6 @@ class BaseLoader {
             jsonPayload
           };
         }
-
         return this.memoizedGet(`${""}/page-data/sq/d/${staticQueryHash}.json`).then(req => {
           const jsonPayload = JSON.parse(req.responseText);
           return {
@@ -1230,9 +1163,9 @@ class BaseLoader {
       });
       return Promise.all([componentChunkPromise, staticQueryBatchPromise]).then(([pageResources, staticQueryResults]) => {
         let payload;
-
         if (pageResources) {
-          payload = { ...pageResources,
+          payload = {
+            ...pageResources,
             staticQueryResults
           };
           finalResult.payload = payload;
@@ -1241,7 +1174,6 @@ class BaseLoader {
             pageResources: payload
           });
         }
-
         this.pageDb.set(pagePath, finalResult);
         return payload;
       });
@@ -1254,56 +1186,50 @@ class BaseLoader {
     });
     this.inFlightDb.set(pagePath, inFlightPromise);
     return inFlightPromise;
-  } // returns undefined if loading page ran into errors
+  }
 
-
+  // returns undefined if loading page ran into errors
   loadPageSync(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(rawPath);
-
     if (this.pageDb.has(pagePath)) {
       const pageData = this.pageDb.get(pagePath).payload;
       return pageData;
     }
-
     return undefined;
   }
-
   shouldPrefetch(pagePath) {
     // Skip prefetching if we know user is on slow or constrained connection
     if (!doesConnectionSupportPrefetch()) {
       return false;
-    } // Check if the page exists.
+    }
 
-
+    // Check if the page exists.
     if (this.pageDb.has(pagePath)) {
       return false;
     }
-
     return true;
   }
-
   prefetch(pagePath) {
     if (!this.shouldPrefetch(pagePath)) {
       return false;
-    } // Tell plugins with custom prefetching logic that they should start
+    }
+
+    // Tell plugins with custom prefetching logic that they should start
     // prefetching this path.
-
-
     if (!this.prefetchTriggered.has(pagePath)) {
       this.apiRunner(`onPrefetchPathname`, {
         pathname: pagePath
       });
       this.prefetchTriggered.add(pagePath);
-    } // If a plugin has disabled core prefetching, stop now.
+    }
 
-
+    // If a plugin has disabled core prefetching, stop now.
     if (this.prefetchDisabled) {
       return false;
     }
-
-    const realPath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(pagePath); // Todo make doPrefetch logic cacheable
+    const realPath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(pagePath);
+    // Todo make doPrefetch logic cacheable
     // eslint-disable-next-line consistent-return
-
     this.doPrefetch(realPath).then(() => {
       if (!this.prefetchCompleted.has(pagePath)) {
         this.apiRunner(`onPostPrefetchPathname`, {
@@ -1314,25 +1240,22 @@ class BaseLoader {
     });
     return true;
   }
-
   doPrefetch(pagePath) {
     const pageDataUrl = createPageDataUrl(pagePath);
     return Object(_prefetch__WEBPACK_IMPORTED_MODULE_0__["default"])(pageDataUrl, {
       crossOrigin: `anonymous`,
       as: `fetch`
-    }).then(() => // This was just prefetched, so will return a response from
+    }).then(() =>
+    // This was just prefetched, so will return a response from
     // the cache instead of making another request to the server
     this.loadPageDataJson(pagePath));
   }
-
   hovering(rawPath) {
     this.loadPage(rawPath);
   }
-
   getResourceURLsForPathname(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(rawPath);
     const page = this.pageDataDb.get(pagePath);
-
     if (page) {
       const pageResources = toPageResources(page.payload);
       return [...createComponentUrls(pageResources.page.componentChunkName), createPageDataUrl(pagePath)];
@@ -1340,13 +1263,11 @@ class BaseLoader {
       return null;
     }
   }
-
   isPageNotFound(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_2__["findPath"])(rawPath);
     const page = this.pageDb.get(pagePath);
     return !page || page.notFound;
   }
-
   loadAppData(retries = 0) {
     return this.memoizedGet(`${""}/page-data/app-data.json`).then(req => {
       const {
@@ -1354,55 +1275,46 @@ class BaseLoader {
         responseText
       } = req;
       let appData;
-
       if (status !== 200 && retries < 3) {
         // Retry 3 times incase of non-200 responses
         return this.loadAppData(retries + 1);
-      } // Handle 200
+      }
 
-
+      // Handle 200
       if (status === 200) {
         try {
           const jsonPayload = JSON.parse(responseText);
-
           if (jsonPayload.webpackCompilationHash === undefined) {
             throw new Error(`not a valid app-data response`);
           }
-
           appData = jsonPayload;
-        } catch (err) {// continue regardless of error
+        } catch (err) {
+          // continue regardless of error
         }
       }
-
       return appData;
     });
   }
-
 }
-
 const createComponentUrls = componentChunkName => (window.___chunkMapping[componentChunkName] || []).map(chunk => "" + chunk);
-
 class ProdLoader extends BaseLoader {
   constructor(asyncRequires, matchPaths) {
-    const loadComponent = chunkName => asyncRequires.components[chunkName] ? asyncRequires.components[chunkName]().then(preferDefault) // loader will handle the case when component is null
+    const loadComponent = chunkName => asyncRequires.components[chunkName] ? asyncRequires.components[chunkName]().then(preferDefault)
+    // loader will handle the case when component is null
     .catch(() => null) : Promise.resolve();
-
     super(loadComponent, matchPaths);
   }
-
   doPrefetch(pagePath) {
     return super.doPrefetch(pagePath).then(result => {
       if (result.status !== PageResourceStatus.Success) {
         return Promise.resolve();
       }
-
       const pageData = result.payload;
       const chunkName = pageData.componentChunkName;
       const componentUrls = createComponentUrls(chunkName);
       return Promise.all(componentUrls.map(_prefetch__WEBPACK_IMPORTED_MODULE_0__["default"])).then(() => pageData);
     });
   }
-
   loadPageDataJson(rawPath) {
     return super.loadPageDataJson(rawPath).then(data => {
       if (data.notFound) {
@@ -1416,18 +1328,16 @@ class ProdLoader extends BaseLoader {
             return {
               status: PageResourceStatus.Error
             };
-          } // if HEAD request wasn't 200, return notFound result
+          }
+
+          // if HEAD request wasn't 200, return notFound result
           // and show 404 page
-
-
           return data;
         });
       }
-
       return data;
     });
   }
-
 }
 let instance;
 const setLoader = _loader => {
@@ -1479,15 +1389,12 @@ __webpack_require__.r(__webpack_exports__);
   if (path === undefined) {
     return path;
   }
-
   if (path === `/`) {
     return `/`;
   }
-
   if (path.charAt(path.length - 1) === `/`) {
     return path.slice(0, -1);
   }
-
   return path;
 });
 
@@ -1506,9 +1413,7 @@ const support = function (feature) {
   if (typeof document === `undefined`) {
     return false;
   }
-
   const fakeLink = document.createElement(`link`);
-
   try {
     if (fakeLink.relList && typeof fakeLink.relList.supports === `function`) {
       return fakeLink.relList.supports(feature);
@@ -1516,17 +1421,14 @@ const support = function (feature) {
   } catch (err) {
     return false;
   }
-
   return false;
 };
-
 const linkPrefetchStrategy = function (url, options) {
   return new Promise((resolve, reject) => {
     if (typeof document === `undefined`) {
       reject();
       return;
     }
-
     const link = document.createElement(`link`);
     link.setAttribute(`rel`, `prefetch`);
     link.setAttribute(`href`, url);
@@ -1539,12 +1441,10 @@ const linkPrefetchStrategy = function (url, options) {
     parentElement.appendChild(link);
   });
 };
-
 const xhrPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.open(`GET`, url, true);
-
     req.onload = () => {
       if (req.status === 200) {
         resolve();
@@ -1552,21 +1452,17 @@ const xhrPrefetchStrategy = function (url) {
         reject();
       }
     };
-
     req.send(null);
   });
 };
-
 const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : xhrPrefetchStrategy;
 const preFetched = {};
-
 const prefetch = function (url, options) {
   return new Promise(resolve => {
     if (preFetched[url]) {
       resolve();
       return;
     }
-
     supportedPrefetchStrategy(url, options).then(() => {
       resolve();
       preFetched[url] = true;
@@ -1586,7 +1482,6 @@ const prefetch = function (url, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 const preferDefault = m => m && m.default || m;
-
 if (false) {} else if (false) {} else {
   module.exports = () => null;
 }
@@ -1675,20 +1570,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import testRequireError from "./test-require-error"
+
+
+// import testRequireError from "./test-require-error"
 // For some extremely mysterious reason, webpack adds the above module *after*
 // this module so that when this code runs, testRequireError is undefined.
 // So in the meantime, we'll just inline it.
-
 const testRequireError = (moduleName, err) => {
   const regex = new RegExp(`Error: Cannot find module\\s.${moduleName}`);
   const firstLine = err.toString().split(`\n`)[0];
   return regex.test(firstLine);
 };
-
 const stats = JSON.parse(fs__WEBPACK_IMPORTED_MODULE_7___default.a.readFileSync(`${process.cwd()}/public/webpack.stats.json`, `utf-8`));
 let Html;
-
 try {
   Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 } catch (err) {
@@ -1699,7 +1593,6 @@ try {
     process.exit();
   }
 }
-
 Html = Html && Html.__esModule ? Html.default : Html;
 /* harmony default export */ __webpack_exports__["default"] = ((pagePath, isClientOnlyPage, callback) => {
   let bodyHtml = ``;
@@ -1713,93 +1606,70 @@ Html = Html && Html.__esModule ? Html.default : Html;
   let preBodyComponents = [];
   let postBodyComponents = [];
   let bodyProps = {};
-
   const generateBodyHTML = () => {
     const setHeadComponents = components => {
       headComponents = headComponents.concat(components);
     };
-
     const setHtmlAttributes = attributes => {
       htmlAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_4___default()(htmlAttributes, attributes);
     };
-
     const setBodyAttributes = attributes => {
       bodyAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_4___default()(bodyAttributes, attributes);
     };
-
     const setPreBodyComponents = components => {
       preBodyComponents = preBodyComponents.concat(components);
     };
-
     const setPostBodyComponents = components => {
       postBodyComponents = postBodyComponents.concat(components);
     };
-
     const setBodyProps = props => {
       bodyProps = lodash_merge__WEBPACK_IMPORTED_MODULE_4___default()({}, bodyProps, props);
     };
-
     const getHeadComponents = () => headComponents;
-
     const replaceHeadComponents = components => {
       headComponents = components;
     };
-
     const replaceBodyHTMLString = body => {
       bodyHtml = body;
     };
-
     const getPreBodyComponents = () => preBodyComponents;
-
     const replacePreBodyComponents = components => {
       preBodyComponents = components;
     };
-
     const getPostBodyComponents = () => postBodyComponents;
-
     const replacePostBodyComponents = components => {
       postBodyComponents = components;
     };
-
     const getPageDataPath = path => {
       const fixedPagePath = path === `/` ? `index` : path;
       return Object(path__WEBPACK_IMPORTED_MODULE_9__["join"])(`page-data`, fixedPagePath, `page-data.json`);
     };
-
     const getPageData = pagePath => {
       const pageDataPath = getPageDataPath(pagePath);
       const absolutePageDataPath = Object(path__WEBPACK_IMPORTED_MODULE_9__["join"])(process.cwd(), `public`, pageDataPath);
       const pageDataJson = fs__WEBPACK_IMPORTED_MODULE_7___default.a.readFileSync(absolutePageDataPath, `utf8`);
-
       try {
         return JSON.parse(pageDataJson);
       } catch (err) {
         return null;
       }
     };
-
     const pageData = getPageData(pagePath);
     const {
       componentChunkName,
       staticQueryHashes = []
     } = pageData;
-
     let scriptsAndStyles = lodash_flatten__WEBPACK_IMPORTED_MODULE_2___default()([`commons`].map(chunkKey => {
       const fetchKey = `assetsByChunkName[${chunkKey}]`;
-
       let chunks = lodash_get__WEBPACK_IMPORTED_MODULE_5___default()(stats, fetchKey);
-
       const namedChunkGroups = lodash_get__WEBPACK_IMPORTED_MODULE_5___default()(stats, `namedChunkGroups`);
-
       if (!chunks) {
         return null;
       }
-
       chunks = chunks.map(chunk => {
         if (chunk === `/`) {
           return null;
         }
-
         return {
           rel: `preload`,
           name: chunk
@@ -1810,7 +1680,6 @@ Html = Html && Html.__esModule ? Html.default : Html;
         name: asset
       }));
       const childAssets = namedChunkGroups[chunkKey].childAssets;
-
       for (const rel in childAssets) {
         chunks = lodash_concat__WEBPACK_IMPORTED_MODULE_0___default()(chunks, childAssets[rel].map(chunk => {
           return {
@@ -1819,10 +1688,8 @@ Html = Html && Html.__esModule ? Html.default : Html;
           };
         }));
       }
-
       return chunks;
     })).filter(s => lodash_isObject__WEBPACK_IMPORTED_MODULE_3___default()(s)).sort((s1, s2) => s1.rel == `preload` ? -1 : 1); // given priority to preload
-
 
     scriptsAndStyles = lodash_uniqBy__WEBPACK_IMPORTED_MODULE_1___default()(scriptsAndStyles, item => item.name);
     const styles = scriptsAndStyles.filter(style => style.name && style.name.endsWith(`.css`));
@@ -1836,21 +1703,20 @@ Html = Html && Html.__esModule ? Html.default : Html;
       }));
     });
     const createElement = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
-
     class RouteHandler extends react__WEBPACK_IMPORTED_MODULE_6___default.a.Component {
       render() {
         var _pageData$result, _pageData$result$page;
-
-        const props = { ...this.props,
+        const props = {
+          ...this.props,
           ...pageData.result,
-          params: { ...Object(_find_path__WEBPACK_IMPORTED_MODULE_11__["grabMatchParams"])(this.props.location.pathname),
+          params: {
+            ...Object(_find_path__WEBPACK_IMPORTED_MODULE_11__["grabMatchParams"])(this.props.location.pathname),
             ...(((_pageData$result = pageData.result) === null || _pageData$result === void 0 ? void 0 : (_pageData$result$page = _pageData$result.pageContext) === null || _pageData$result$page === void 0 ? void 0 : _pageData$result$page.__params) || {})
           },
           // pathContext was deprecated in v2. Renamed to pageContext
           pathContext: pageData.result ? pageData.result.pageContext : undefined
         };
         let pageElement;
-
         if ($virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_12___default.a.ssrComponents[componentChunkName] && !isClientOnlyPage) {
           pageElement = createElement($virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_12___default.a.ssrComponents[componentChunkName], props);
         } else {
@@ -1858,7 +1724,6 @@ Html = Html && Html.__esModule ? Html.default : Html;
           // compiling yet, just render an empty component.
           pageElement = () => null;
         }
-
         const wrappedPage = _api_runner_ssr__WEBPACK_IMPORTED_MODULE_10___default()(`wrapPageElement`, {
           element: pageElement,
           props
@@ -1872,9 +1737,7 @@ Html = Html && Html.__esModule ? Html.default : Html;
         }).pop();
         return wrappedPage;
       }
-
     }
-
     const routerElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_14__["ServerLocation"], {
       url: `${""}${pagePath}`
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_14__["Router"], {
@@ -1893,8 +1756,9 @@ Html = Html && Html.__esModule ? Html.default : Html;
         element: result,
         pathname: pagePath
       };
-    }).pop(); // Let the site or plugin render the page component.
+    }).pop();
 
+    // Let the site or plugin render the page component.
     _api_runner_ssr__WEBPACK_IMPORTED_MODULE_10___default()(`replaceRenderer`, {
       bodyComponent,
       replaceBodyHTMLString,
@@ -1906,8 +1770,9 @@ Html = Html && Html.__esModule ? Html.default : Html;
       setBodyProps,
       pathname: pagePath,
       pathPrefix: ""
-    }); // If no one stepped up, we'll handle it.
+    });
 
+    // If no one stepped up, we'll handle it.
     if (!bodyHtml) {
       try {
         bodyHtml = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_8__["renderToString"])(bodyComponent);
@@ -1916,7 +1781,6 @@ Html = Html && Html.__esModule ? Html.default : Html;
         if (!Object(_reach_router__WEBPACK_IMPORTED_MODULE_14__["isRedirect"])(e)) throw e;
       }
     }
-
     _api_runner_ssr__WEBPACK_IMPORTED_MODULE_10___default()(`onRenderBody`, {
       setHeadComponents,
       setHtmlAttributes,
@@ -1937,9 +1801,9 @@ Html = Html && Html.__esModule ? Html.default : Html;
     });
     return bodyHtml;
   };
-
   const bodyStr = generateBodyHTML();
-  const htmlElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Html, { ...bodyProps,
+  const htmlElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Html, {
+    ...bodyProps,
     body: bodyStr,
     headComponents: headComponents.concat([/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("script", {
       key: `io`,
@@ -1978,19 +1842,17 @@ __webpack_require__.r(__webpack_exports__);
  * Remove a prefix from a string. Return the input string if the given prefix
  * isn't found.
  */
+
 function stripPrefix(str, prefix = ``) {
   if (!prefix) {
     return str;
   }
-
   if (str === prefix) {
     return `/`;
   }
-
   if (str.startsWith(`${prefix}/`)) {
     return str.slice(prefix.length);
   }
-
   return str;
 }
 
@@ -2007,10 +1869,8 @@ function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
   }
-
   return self;
 }
-
 module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2026,19 +1886,16 @@ function _extends() {
   module.exports = _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
-
       for (var key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)) {
           target[key] = source[key];
         }
       }
     }
-
     return target;
   }, module.exports.__esModule = true, module.exports["default"] = module.exports;
   return _extends.apply(this, arguments);
 }
-
 module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2051,13 +1908,11 @@ module.exports = _extends, module.exports.__esModule = true, module.exports["def
 /***/ (function(module, exports, __webpack_require__) {
 
 var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
   setPrototypeOf(subClass, superClass);
 }
-
 module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2074,7 +1929,6 @@ function _interopRequireDefault(obj) {
     "default": obj
   };
 }
-
 module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2087,7 +1941,6 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 /***/ (function(module, exports, __webpack_require__) {
 
 var _typeof = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
-
 function _getRequireWildcardCache(nodeInterop) {
   if (typeof WeakMap !== "function") return null;
   var cacheBabelInterop = new WeakMap();
@@ -2096,31 +1949,24 @@ function _getRequireWildcardCache(nodeInterop) {
     return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
   })(nodeInterop);
 }
-
 function _interopRequireWildcard(obj, nodeInterop) {
   if (!nodeInterop && obj && obj.__esModule) {
     return obj;
   }
-
   if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
     return {
       "default": obj
     };
   }
-
   var cache = _getRequireWildcardCache(nodeInterop);
-
   if (cache && cache.has(obj)) {
     return cache.get(obj);
   }
-
   var newObj = {};
   var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-
   for (var key in obj) {
     if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
       var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-
       if (desc && (desc.get || desc.set)) {
         Object.defineProperty(newObj, key, desc);
       } else {
@@ -2128,16 +1974,12 @@ function _interopRequireWildcard(obj, nodeInterop) {
       }
     }
   }
-
   newObj["default"] = obj;
-
   if (cache) {
     cache.set(obj, newObj);
   }
-
   return newObj;
 }
-
 module.exports = _interopRequireWildcard, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2154,16 +1996,13 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   var target = {};
   var sourceKeys = Object.keys(source);
   var key, i;
-
   for (i = 0; i < sourceKeys.length; i++) {
     key = sourceKeys[i];
     if (excluded.indexOf(key) >= 0) continue;
     target[key] = source[key];
   }
-
   return target;
 }
-
 module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2182,7 +2021,6 @@ function _setPrototypeOf(o, p) {
   }, module.exports.__esModule = true, module.exports["default"] = module.exports;
   return _setPrototypeOf(o, p);
 }
-
 module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -2203,7 +2041,6 @@ function _typeof(obj) {
     return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
   }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(obj);
 }
-
 module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
@@ -3715,65 +3552,48 @@ module.exports = function (obj, predicate) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 exports.__esModule = true;
 exports.default = void 0;
-
 var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
-
 var _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js"));
-
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"));
-
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));
-
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
 var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
 var logDeprecationNotice = function logDeprecationNotice(prop, replacement) {
   if (false) {}
-
   console.log("\n    The \"" + prop + "\" prop is now deprecated and will be removed in the next major version\n    of \"gatsby-image\".\n    ");
-
   if (replacement) {
     console.log("Please use " + replacement + " instead of \"" + prop + "\".");
   }
 }; // Handle legacy props during their deprecation phase
 
-
 var convertProps = function convertProps(props) {
   var convertedProps = (0, _extends2.default)({}, props);
   var resolutions = convertedProps.resolutions,
-      sizes = convertedProps.sizes,
-      critical = convertedProps.critical;
-
+    sizes = convertedProps.sizes,
+    critical = convertedProps.critical;
   if (resolutions) {
     convertedProps.fixed = resolutions;
     logDeprecationNotice("resolutions", "the gatsby-image v2 prop \"fixed\"");
     delete convertedProps.resolutions;
   }
-
   if (sizes) {
     convertedProps.fluid = sizes;
     logDeprecationNotice("sizes", "the gatsby-image v2 prop \"fluid\"");
     delete convertedProps.sizes;
   }
-
   if (critical) {
     logDeprecationNotice("critical", "the native \"loading\" attribute");
     convertedProps.loading = "eager";
   } // convert fluid & fixed to arrays so we only have to work with arrays
 
-
   if (convertedProps.fluid) {
     convertedProps.fluid = groupByMedia([].concat(convertedProps.fluid));
   }
-
   if (convertedProps.fixed) {
     convertedProps.fixed = groupByMedia([].concat(convertedProps.fixed));
   }
-
   return convertedProps;
 };
 /**
@@ -3782,7 +3602,6 @@ var convertProps = function convertProps(props) {
  * @param currentData  {{media?: string}[]}   The props to check for images.
  * @return {boolean}
  */
-
 
 var hasArtDirectionSupport = function hasArtDirectionSupport(currentData) {
   return !!currentData && Array.isArray(currentData) && currentData.some(function (image) {
@@ -3795,7 +3614,6 @@ var hasArtDirectionSupport = function hasArtDirectionSupport(currentData) {
  * @return {boolean}
  */
 
-
 var matchesMedia = function matchesMedia(_ref) {
   var media = _ref.media;
   return media ? isBrowser && !!window.matchMedia(media).matches : false;
@@ -3807,10 +3625,9 @@ var matchesMedia = function matchesMedia(_ref) {
  * @return {string?} Returns image src or undefined it not given.
  */
 
-
 var getImageCacheKey = function getImageCacheKey(_ref2) {
   var fluid = _ref2.fluid,
-      fixed = _ref2.fixed;
+    fixed = _ref2.fixed;
   var srcData = getCurrentSrcData(fluid || fixed || []);
   return srcData && srcData.src;
 };
@@ -3820,56 +3637,45 @@ var getImageCacheKey = function getImageCacheKey(_ref2) {
  * @return {{src: string, media?: string, maxWidth?: Number, maxHeight?: Number}}
  */
 
-
 var getCurrentSrcData = function getCurrentSrcData(currentData) {
   if (isBrowser && hasArtDirectionSupport(currentData)) {
     // Do we have an image for the current Viewport?
     var foundMedia = currentData.findIndex(matchesMedia);
-
     if (foundMedia !== -1) {
       return currentData[foundMedia];
     } // No media matches, select first element without a media condition
 
-
     var noMedia = currentData.findIndex(function (image) {
       return typeof image.media === "undefined";
     });
-
     if (noMedia !== -1) {
       return currentData[noMedia];
     }
   } // Else return the first image.
 
-
   return currentData[0];
 }; // Cache if we've seen an image before so we don't bother with
 // lazy-loading & fading in on subsequent mounts.
 
-
 var imageCache = Object.create({});
-
 var inImageCache = function inImageCache(props) {
   var convertedProps = convertProps(props);
   var cacheKey = getImageCacheKey(convertedProps);
   return imageCache[cacheKey] || false;
 };
-
 var activateCacheForImage = function activateCacheForImage(props) {
   var convertedProps = convertProps(props);
   var cacheKey = getImageCacheKey(convertedProps);
-
   if (cacheKey) {
     imageCache[cacheKey] = true;
   }
 }; // Native lazy-loading support: https://addyosmani.com/blog/lazy-loading/
-
 
 var hasNativeLazyLoadSupport = typeof HTMLImageElement !== "undefined" && "loading" in HTMLImageElement.prototype;
 var isBrowser = typeof window !== "undefined";
 var hasIOSupport = isBrowser && window.IntersectionObserver;
 var io;
 var listeners = new WeakMap();
-
 function getIO() {
   if (typeof io === "undefined" && typeof window !== "undefined" && window.IntersectionObserver) {
     io = new window.IntersectionObserver(function (entries) {
@@ -3888,17 +3694,15 @@ function getIO() {
       rootMargin: "200px"
     });
   }
-
   return io;
 }
-
 function generateImageSources(imageVariants) {
   return imageVariants.map(function (_ref3) {
     var src = _ref3.src,
-        srcSet = _ref3.srcSet,
-        srcSetWebp = _ref3.srcSetWebp,
-        media = _ref3.media,
-        sizes = _ref3.sizes;
+      srcSet = _ref3.srcSet,
+      srcSetWebp = _ref3.srcSetWebp,
+      media = _ref3.media,
+      sizes = _ref3.sizes;
     return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, {
       key: src
     }, srcSetWebp && /*#__PURE__*/_react.default.createElement("source", {
@@ -3915,26 +3719,22 @@ function generateImageSources(imageVariants) {
 } // Return an array ordered by elements having a media prop, does not use
 // native sort, as a stable sort is not guaranteed by all browsers/versions
 
-
 function groupByMedia(imageVariants) {
   var withMedia = [];
   var without = [];
   imageVariants.forEach(function (variant) {
     return (variant.media ? withMedia : without).push(variant);
   });
-
   if (without.length > 1 && "development" !== "production") {
     console.warn("We've found " + without.length + " sources without a media property. They might be ignored by the browser, see: https://www.gatsbyjs.org/packages/gatsby-image/#art-directing-multiple-images");
   }
-
   return [].concat(withMedia, without);
 }
-
 function generateTracedSVGSources(imageVariants) {
   return imageVariants.map(function (_ref4) {
     var src = _ref4.src,
-        media = _ref4.media,
-        tracedSVG = _ref4.tracedSVG;
+      media = _ref4.media,
+      tracedSVG = _ref4.tracedSVG;
     return /*#__PURE__*/_react.default.createElement("source", {
       key: src,
       media: media,
@@ -3942,12 +3742,11 @@ function generateTracedSVGSources(imageVariants) {
     });
   });
 }
-
 function generateBase64Sources(imageVariants) {
   return imageVariants.map(function (_ref5) {
     var src = _ref5.src,
-        media = _ref5.media,
-        base64 = _ref5.base64;
+      media = _ref5.media,
+      base64 = _ref5.base64;
     return /*#__PURE__*/_react.default.createElement("source", {
       key: src,
       media: media,
@@ -3955,39 +3754,33 @@ function generateBase64Sources(imageVariants) {
     });
   });
 }
-
 function generateNoscriptSource(_ref6, isWebp) {
   var srcSet = _ref6.srcSet,
-      srcSetWebp = _ref6.srcSetWebp,
-      media = _ref6.media,
-      sizes = _ref6.sizes;
+    srcSetWebp = _ref6.srcSetWebp,
+    media = _ref6.media,
+    sizes = _ref6.sizes;
   var src = isWebp ? srcSetWebp : srcSet;
   var mediaAttr = media ? "media=\"" + media + "\" " : "";
   var typeAttr = isWebp ? "type='image/webp' " : "";
   var sizesAttr = sizes ? "sizes=\"" + sizes + "\" " : "";
   return "<source " + typeAttr + mediaAttr + "srcset=\"" + src + "\" " + sizesAttr + "/>";
 }
-
 function generateNoscriptSources(imageVariants) {
   return imageVariants.map(function (variant) {
     return (variant.srcSetWebp ? generateNoscriptSource(variant, true) : "") + generateNoscriptSource(variant);
   }).join("");
 }
-
 var listenToIntersections = function listenToIntersections(el, cb) {
   var observer = getIO();
-
   if (observer) {
     observer.observe(el);
     listeners.set(el, cb);
   }
-
   return function () {
     observer.unobserve(el);
     listeners.delete(el);
   };
 };
-
 var noscriptImg = function noscriptImg(props) {
   // Check if prop exists before adding each attribute to the string output below to prevent
   // HTML validation issues caused by empty values like width="" and height=""
@@ -4009,35 +3802,31 @@ var noscriptImg = function noscriptImg(props) {
 // the `Img` component in a `picture` element. This maintains compatibility
 // until a breaking change can be introduced in the next major release
 
-
 var Placeholder = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
   var src = props.src,
-      imageVariants = props.imageVariants,
-      generateSources = props.generateSources,
-      spreadProps = props.spreadProps,
-      ariaHidden = props.ariaHidden;
-
+    imageVariants = props.imageVariants,
+    generateSources = props.generateSources,
+    spreadProps = props.spreadProps,
+    ariaHidden = props.ariaHidden;
   var baseImage = /*#__PURE__*/_react.default.createElement(Img, (0, _extends2.default)({
     ref: ref,
     src: src
   }, spreadProps, {
     ariaHidden: ariaHidden
   }));
-
   return imageVariants.length > 1 ? /*#__PURE__*/_react.default.createElement("picture", null, generateSources(imageVariants), baseImage) : baseImage;
 });
-
 var Img = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
   var sizes = props.sizes,
-      srcSet = props.srcSet,
-      src = props.src,
-      style = props.style,
-      onLoad = props.onLoad,
-      onError = props.onError,
-      loading = props.loading,
-      draggable = props.draggable,
-      ariaHidden = props.ariaHidden,
-      otherProps = (0, _objectWithoutPropertiesLoose2.default)(props, ["sizes", "srcSet", "src", "style", "onLoad", "onError", "loading", "draggable", "ariaHidden"]);
+    srcSet = props.srcSet,
+    src = props.src,
+    style = props.style,
+    onLoad = props.onLoad,
+    onError = props.onError,
+    loading = props.loading,
+    draggable = props.draggable,
+    ariaHidden = props.ariaHidden,
+    otherProps = (0, _objectWithoutPropertiesLoose2.default)(props, ["sizes", "srcSet", "src", "style", "onLoad", "onError", "loading", "draggable", "ariaHidden"]);
   return /*#__PURE__*/_react.default.createElement("img", (0, _extends2.default)({
     "aria-hidden": ariaHidden,
     sizes: sizes,
@@ -4060,19 +3849,15 @@ var Img = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
     }, style)
   }));
 });
-
 Img.propTypes = {
   style: _propTypes.default.object,
   onError: _propTypes.default.func,
   onLoad: _propTypes.default.func
 };
-
 var Image = /*#__PURE__*/function (_React$Component) {
   (0, _inheritsLoose2.default)(Image, _React$Component);
-
   function Image(props) {
     var _this;
-
     _this = _React$Component.call(this, props) || this; // If this image has already been loaded before then we can assume it's
     // already in the browser cache so it's cheap to just show directly.
 
@@ -4094,29 +3879,23 @@ var Image = /*#__PURE__*/function (_React$Component) {
     _this.handleRef = _this.handleRef.bind((0, _assertThisInitialized2.default)(_this));
     return _this;
   }
-
   var _proto = Image.prototype;
-
   _proto.componentDidMount = function componentDidMount() {
     this.setState({
       isHydrated: isBrowser
     });
-
     if (this.state.isVisible && typeof this.props.onStartLoad === "function") {
       this.props.onStartLoad({
         wasCached: inImageCache(this.props)
       });
     }
-
     if (this.isCritical) {
       var img = this.imageRef.current;
-
       if (img && img.complete) {
         this.handleImageLoaded();
       }
     }
   };
-
   _proto.componentWillUnmount = function componentWillUnmount() {
     if (this.cleanUpListeners) {
       this.cleanUpListeners();
@@ -4126,11 +3905,9 @@ var Image = /*#__PURE__*/function (_React$Component) {
 
   _proto.handleRef = function handleRef(ref) {
     var _this2 = this;
-
     if (this.useIOSupport && ref) {
       this.cleanUpListeners = listenToIntersections(ref, function () {
         var imageInCache = inImageCache(_this2.props);
-
         if (!_this2.state.isVisible && typeof _this2.props.onStartLoad === "function") {
           _this2.props.onStartLoad({
             wasCached: imageInCache
@@ -4139,7 +3916,6 @@ var Image = /*#__PURE__*/function (_React$Component) {
         // Once isVisible is true, imageRef becomes accessible, which imgCached needs access to.
         // imgLoaded and imgCached are in a 2nd setState call to be changed together,
         // avoiding initiating unnecessary animation frames from style changes.
-
 
         _this2.setState({
           isVisible: true
@@ -4156,45 +3932,40 @@ var Image = /*#__PURE__*/function (_React$Component) {
       });
     }
   };
-
   _proto.handleImageLoaded = function handleImageLoaded() {
     activateCacheForImage(this.props);
     this.setState({
       imgLoaded: true
     });
-
     if (this.props.onLoad) {
       this.props.onLoad();
     }
   };
-
   _proto.render = function render() {
     var _convertProps = convertProps(this.props),
-        title = _convertProps.title,
-        alt = _convertProps.alt,
-        className = _convertProps.className,
-        _convertProps$style = _convertProps.style,
-        style = _convertProps$style === void 0 ? {} : _convertProps$style,
-        _convertProps$imgStyl = _convertProps.imgStyle,
-        imgStyle = _convertProps$imgStyl === void 0 ? {} : _convertProps$imgStyl,
-        _convertProps$placeho = _convertProps.placeholderStyle,
-        placeholderStyle = _convertProps$placeho === void 0 ? {} : _convertProps$placeho,
-        placeholderClassName = _convertProps.placeholderClassName,
-        fluid = _convertProps.fluid,
-        fixed = _convertProps.fixed,
-        backgroundColor = _convertProps.backgroundColor,
-        durationFadeIn = _convertProps.durationFadeIn,
-        Tag = _convertProps.Tag,
-        itemProp = _convertProps.itemProp,
-        loading = _convertProps.loading,
-        draggable = _convertProps.draggable;
-
+      title = _convertProps.title,
+      alt = _convertProps.alt,
+      className = _convertProps.className,
+      _convertProps$style = _convertProps.style,
+      style = _convertProps$style === void 0 ? {} : _convertProps$style,
+      _convertProps$imgStyl = _convertProps.imgStyle,
+      imgStyle = _convertProps$imgStyl === void 0 ? {} : _convertProps$imgStyl,
+      _convertProps$placeho = _convertProps.placeholderStyle,
+      placeholderStyle = _convertProps$placeho === void 0 ? {} : _convertProps$placeho,
+      placeholderClassName = _convertProps.placeholderClassName,
+      fluid = _convertProps.fluid,
+      fixed = _convertProps.fixed,
+      backgroundColor = _convertProps.backgroundColor,
+      durationFadeIn = _convertProps.durationFadeIn,
+      Tag = _convertProps.Tag,
+      itemProp = _convertProps.itemProp,
+      loading = _convertProps.loading,
+      draggable = _convertProps.draggable;
     var imageVariants = fluid || fixed; // Abort early if missing image data (#25371)
 
     if (!imageVariants) {
       return null;
     }
-
     var shouldReveal = this.state.fadeIn === false || this.state.imgLoaded;
     var shouldFadeIn = this.state.fadeIn === true && !this.state.imgCached;
     var imageStyle = (0, _extends2.default)({
@@ -4219,7 +3990,6 @@ var Image = /*#__PURE__*/function (_React$Component) {
     // `imageVariants` is always an Array type at this point due to `convertProps()`
 
     var image = !this.state.isHydrated ? imageVariants[0] : getCurrentSrcData(imageVariants);
-
     if (fluid) {
       return /*#__PURE__*/_react.default.createElement(Tag, {
         className: (className ? className : "") + " gatsby-image-wrapper",
@@ -4289,7 +4059,6 @@ var Image = /*#__PURE__*/function (_React$Component) {
         }
       }));
     }
-
     if (fixed) {
       var divStyle = (0, _extends2.default)({
         position: "relative",
@@ -4298,11 +4067,9 @@ var Image = /*#__PURE__*/function (_React$Component) {
         width: image.width,
         height: image.height
       }, style);
-
       if (style.display === "inherit") {
         delete divStyle.display;
       }
-
       return /*#__PURE__*/_react.default.createElement(Tag, {
         className: (className ? className : "") + " gatsby-image-wrapper",
         style: divStyle,
@@ -4359,13 +4126,10 @@ var Image = /*#__PURE__*/function (_React$Component) {
         }
       }));
     }
-
     return null;
   };
-
   return Image;
 }(_react.default.Component);
-
 Image.defaultProps = {
   fadeIn: true,
   durationFadeIn: 500,
@@ -4375,7 +4139,6 @@ Image.defaultProps = {
   // setting and let the user "opt out" to `eager`
   loading: "lazy"
 };
-
 var fixedObject = _propTypes.default.shape({
   width: _propTypes.default.number.isRequired,
   height: _propTypes.default.number.isRequired,
@@ -4387,7 +4150,6 @@ var fixedObject = _propTypes.default.shape({
   srcSetWebp: _propTypes.default.string,
   media: _propTypes.default.string
 });
-
 var fluidObject = _propTypes.default.shape({
   aspectRatio: _propTypes.default.number.isRequired,
   src: _propTypes.default.string.isRequired,
@@ -4401,22 +4163,18 @@ var fluidObject = _propTypes.default.shape({
   maxWidth: _propTypes.default.number,
   maxHeight: _propTypes.default.number
 });
-
 function requireFixedOrFluid(originalPropTypes) {
   return function (props, propName, componentName) {
     var _PropTypes$checkPropT;
-
     if (!props.fixed && !props.fluid) {
       throw new Error("The prop `fluid` or `fixed` is marked as required in `" + componentName + "`, but their values are both `undefined`.");
     }
-
     _propTypes.default.checkPropTypes((_PropTypes$checkPropT = {}, _PropTypes$checkPropT[propName] = originalPropTypes, _PropTypes$checkPropT), props, "prop", componentName);
   };
 } // If you modify these propTypes, please don't forget to update following files as well:
 // https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-image/index.d.ts
 // https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-image/README.md#gatsby-image-props
 // https://github.com/gatsbyjs/gatsby/blob/master/docs/docs/gatsby-image.md#gatsby-image-props
-
 
 Image.propTypes = {
   resolutions: fixedObject,
@@ -4860,12 +4618,9 @@ function parsePath(path) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 exports.__esModule = true;
 exports.onRenderBody = void 0;
-
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
 var knownOptions = {
   createOnly: {
     clientId: "string",
@@ -4890,15 +4645,12 @@ var knownOptions = {
     transport: "string"
   }
 };
-
 var onRenderBody = function onRenderBody(_ref, pluginOptions) {
   var setHeadComponents = _ref.setHeadComponents,
-      setPostBodyComponents = _ref.setPostBodyComponents;
-
+    setPostBodyComponents = _ref.setPostBodyComponents;
   if (true) {
     return null;
   } // Lighthouse recommends pre-connecting to google analytics
-
 
   setHeadComponents([/*#__PURE__*/_react.default.createElement("link", {
     rel: "preconnect",
@@ -4910,24 +4662,19 @@ var onRenderBody = function onRenderBody(_ref, pluginOptions) {
     href: "https://www.google-analytics.com"
   })]);
   var excludeGAPaths = [];
-
   if (typeof pluginOptions.exclude !== "undefined") {
     var Minimatch = __webpack_require__(/*! minimatch */ "./node_modules/gatsby-plugin-google-analytics/node_modules/minimatch/minimatch.js").Minimatch;
-
     pluginOptions.exclude.map(function (exclude) {
       var mm = new Minimatch(exclude);
       excludeGAPaths.push(mm.makeRe());
     });
   }
-
   var gaCreateOptions = {};
-
   for (var option in knownOptions.createOnly) {
     if (typeof pluginOptions[option] === knownOptions.createOnly[option]) {
       gaCreateOptions[option] = pluginOptions[option];
     }
   }
-
   var setComponents = pluginOptions.head ? setHeadComponents : setPostBodyComponents;
   return setComponents([/*#__PURE__*/_react.default.createElement("script", {
     key: "gatsby-plugin-google-analytics",
@@ -4936,13 +4683,11 @@ var onRenderBody = function onRenderBody(_ref, pluginOptions) {
         if (typeof pluginOptions[option] === knownOptions.general[option]) {
           gaSetCommands += "ga('set', '" + option + "', '" + pluginOptions[option] + "');\n";
         }
-
         return gaSetCommands;
       }, "") + "\n      }"
     }
   })]);
 };
-
 exports.onRenderBody = onRenderBody;
 
 /***/ }),
@@ -4959,15 +4704,11 @@ minimatch.Minimatch = Minimatch;
 var path = {
   sep: '/'
 };
-
 try {
   path = __webpack_require__(/*! path */ "path");
 } catch (er) {}
-
 var GLOBSTAR = minimatch.GLOBSTAR = Minimatch.GLOBSTAR = {};
-
 var expand = __webpack_require__(/*! brace-expansion */ "./node_modules/brace-expansion/index.js");
-
 var plTypes = {
   '!': {
     open: '(?:(?!(?:',
@@ -4989,40 +4730,44 @@ var plTypes = {
     open: '(?:',
     close: ')'
   }
-}; // any single thing other than /
+};
+
+// any single thing other than /
 // don't need to escape / when using new RegExp()
+var qmark = '[^/]';
 
-var qmark = '[^/]'; // * => any number of characters
+// * => any number of characters
+var star = qmark + '*?';
 
-var star = qmark + '*?'; // ** when dots are allowed.  Anything goes, except .. and .
+// ** when dots are allowed.  Anything goes, except .. and .
 // not (^ or / followed by one or two dots followed by $ or /),
 // followed by anything, any number of times.
+var twoStarDot = '(?:(?!(?:\\\/|^)(?:\\.{1,2})($|\\\/)).)*?';
 
-var twoStarDot = '(?:(?!(?:\\\/|^)(?:\\.{1,2})($|\\\/)).)*?'; // not a ^ or / followed by a dot,
+// not a ^ or / followed by a dot,
 // followed by anything, any number of times.
+var twoStarNoDot = '(?:(?!(?:\\\/|^)\\.).)*?';
 
-var twoStarNoDot = '(?:(?!(?:\\\/|^)\\.).)*?'; // characters that need to be escaped in RegExp.
+// characters that need to be escaped in RegExp.
+var reSpecials = charSet('().*{}+?[]^$\\!');
 
-var reSpecials = charSet('().*{}+?[]^$\\!'); // "abc" -> { a:true, b:true, c:true }
-
+// "abc" -> { a:true, b:true, c:true }
 function charSet(s) {
   return s.split('').reduce(function (set, c) {
     set[c] = true;
     return set;
   }, {});
-} // normalizes slashes.
+}
 
-
+// normalizes slashes.
 var slashSplit = /\/+/;
 minimatch.filter = filter;
-
 function filter(pattern, options) {
   options = options || {};
   return function (p, i, list) {
     return minimatch(p, pattern, options);
   };
 }
-
 function ext(a, b) {
   a = a || {};
   b = b || {};
@@ -5035,135 +4780,126 @@ function ext(a, b) {
   });
   return t;
 }
-
 minimatch.defaults = function (def) {
   if (!def || !Object.keys(def).length) return minimatch;
   var orig = minimatch;
-
   var m = function minimatch(p, pattern, options) {
     return orig.minimatch(p, pattern, ext(def, options));
   };
-
   m.Minimatch = function Minimatch(pattern, options) {
     return new orig.Minimatch(pattern, ext(def, options));
   };
-
   return m;
 };
-
 Minimatch.defaults = function (def) {
   if (!def || !Object.keys(def).length) return Minimatch;
   return minimatch.defaults(def).Minimatch;
 };
-
 function minimatch(p, pattern, options) {
   if (typeof pattern !== 'string') {
     throw new TypeError('glob pattern string required');
   }
+  if (!options) options = {};
 
-  if (!options) options = {}; // shortcut: comments match nothing.
-
+  // shortcut: comments match nothing.
   if (!options.nocomment && pattern.charAt(0) === '#') {
     return false;
-  } // "" only matches ""
+  }
 
-
+  // "" only matches ""
   if (pattern.trim() === '') return p === '';
   return new Minimatch(pattern, options).match(p);
 }
-
 function Minimatch(pattern, options) {
   if (!(this instanceof Minimatch)) {
     return new Minimatch(pattern, options);
   }
-
   if (typeof pattern !== 'string') {
     throw new TypeError('glob pattern string required');
   }
-
   if (!options) options = {};
-  pattern = pattern.trim(); // windows support: need to use /, not \
+  pattern = pattern.trim();
 
+  // windows support: need to use /, not \
   if (path.sep !== '/') {
     pattern = pattern.split(path.sep).join('/');
   }
-
   this.options = options;
   this.set = [];
   this.pattern = pattern;
   this.regexp = null;
   this.negate = false;
   this.comment = false;
-  this.empty = false; // make the set of regexps etc.
+  this.empty = false;
 
+  // make the set of regexps etc.
   this.make();
 }
-
 Minimatch.prototype.debug = function () {};
-
 Minimatch.prototype.make = make;
-
 function make() {
   // don't do it more than once.
   if (this._made) return;
   var pattern = this.pattern;
-  var options = this.options; // empty patterns and comments match nothing.
+  var options = this.options;
 
+  // empty patterns and comments match nothing.
   if (!options.nocomment && pattern.charAt(0) === '#') {
     this.comment = true;
     return;
   }
-
   if (!pattern) {
     this.empty = true;
     return;
-  } // step 1: figure out negation, etc.
+  }
 
+  // step 1: figure out negation, etc.
+  this.parseNegate();
 
-  this.parseNegate(); // step 2: expand braces
-
+  // step 2: expand braces
   var set = this.globSet = this.braceExpand();
   if (options.debug) this.debug = console.error;
-  this.debug(this.pattern, set); // step 3: now we have a set, so turn each one into a series of path-portion
+  this.debug(this.pattern, set);
+
+  // step 3: now we have a set, so turn each one into a series of path-portion
   // matching patterns.
   // These will be regexps, except in the case of "**", which is
   // set to the GLOBSTAR object for globstar behavior,
   // and will not contain any / characters
-
   set = this.globParts = set.map(function (s) {
     return s.split(slashSplit);
   });
-  this.debug(this.pattern, set); // glob --> regexps
+  this.debug(this.pattern, set);
 
+  // glob --> regexps
   set = set.map(function (s, si, set) {
     return s.map(this.parse, this);
   }, this);
-  this.debug(this.pattern, set); // filter out everything that didn't compile properly.
+  this.debug(this.pattern, set);
 
+  // filter out everything that didn't compile properly.
   set = set.filter(function (s) {
     return s.indexOf(false) === -1;
   });
   this.debug(this.pattern, set);
   this.set = set;
 }
-
 Minimatch.prototype.parseNegate = parseNegate;
-
 function parseNegate() {
   var pattern = this.pattern;
   var negate = false;
   var options = this.options;
   var negateOffset = 0;
   if (options.nonegate) return;
-
   for (var i = 0, l = pattern.length; i < l && pattern.charAt(i) === '!'; i++) {
     negate = !negate;
     negateOffset++;
   }
-
   if (negateOffset) this.pattern = pattern.substr(negateOffset);
   this.negate = negate;
-} // Brace expansion:
+}
+
+// Brace expansion:
 // a{b,c}d -> abd acd
 // a{b,}c -> abc ac
 // a{0..3}d -> a0d a1d a2d a3d
@@ -5173,14 +4909,10 @@ function parseNegate() {
 // Invalid sets are not expanded.
 // a{2..}b -> a{2..}b
 // a{b}c -> a{b}c
-
-
 minimatch.braceExpand = function (pattern, options) {
   return braceExpand(pattern, options);
 };
-
 Minimatch.prototype.braceExpand = braceExpand;
-
 function braceExpand(pattern, options) {
   if (!options) {
     if (this instanceof Minimatch) {
@@ -5189,20 +4921,18 @@ function braceExpand(pattern, options) {
       options = {};
     }
   }
-
   pattern = typeof pattern === 'undefined' ? this.pattern : pattern;
-
   if (typeof pattern === 'undefined') {
     throw new TypeError('undefined pattern');
   }
-
   if (options.nobrace || !pattern.match(/\{.*\}/)) {
     // shortcut. no need to expand.
     return [pattern];
   }
-
   return expand(pattern);
-} // parse a component of the expanded set.
+}
+
+// parse a component of the expanded set.
 // At this point, no pattern may contain "/" in it
 // so we're going to return a 2d array, where each entry is the full
 // pattern, split on '/', and then turned into a regular expression.
@@ -5213,37 +4943,33 @@ function braceExpand(pattern, options) {
 // when it is the *only* thing in a path portion.  Otherwise, any series
 // of * is equivalent to a single *.  Globstar behavior is enabled by
 // default, and can be disabled by setting options.noglobstar.
-
-
 Minimatch.prototype.parse = parse;
 var SUBPARSE = {};
-
 function parse(pattern, isSub) {
   if (pattern.length > 1024 * 64) {
     throw new TypeError('pattern is too long');
   }
+  var options = this.options;
 
-  var options = this.options; // shortcuts
-
+  // shortcuts
   if (!options.noglobstar && pattern === '**') return GLOBSTAR;
   if (pattern === '') return '';
   var re = '';
   var hasMagic = !!options.nocase;
-  var escaping = false; // ? => one single character
-
+  var escaping = false;
+  // ? => one single character
   var patternListStack = [];
   var negativeLists = [];
   var stateChar;
   var inClass = false;
   var reClassStart = -1;
-  var classStart = -1; // . and .. never match anything that doesn't start with .,
+  var classStart = -1;
+  // . and .. never match anything that doesn't start with .,
   // even when options.dot is set.
-
   var patternStart = pattern.charAt(0) === '.' ? '' // anything
   // not (start or / followed by . or .. followed by / or end)
   : options.dot ? '(?!(?:^|\\\/)\\.{1,2}(?:$|\\\/))' : '(?!\\.)';
   var self = this;
-
   function clearStateChar() {
     if (stateChar) {
       // we had some state-tracking character
@@ -5253,142 +4979,126 @@ function parse(pattern, isSub) {
           re += star;
           hasMagic = true;
           break;
-
         case '?':
           re += qmark;
           hasMagic = true;
           break;
-
         default:
           re += '\\' + stateChar;
           break;
       }
-
       self.debug('clearStateChar %j %j', stateChar, re);
       stateChar = false;
     }
   }
-
   for (var i = 0, len = pattern.length, c; i < len && (c = pattern.charAt(i)); i++) {
-    this.debug('%s\t%s %s %j', pattern, i, re, c); // skip over any that are escaped.
+    this.debug('%s\t%s %s %j', pattern, i, re, c);
 
+    // skip over any that are escaped.
     if (escaping && reSpecials[c]) {
       re += '\\' + c;
       escaping = false;
       continue;
     }
-
     switch (c) {
       case '/':
         // completely not allowed, even escaped.
         // Should already be path-split by now.
         return false;
-
       case '\\':
         clearStateChar();
         escaping = true;
         continue;
+
       // the various stateChar values
       // for the "extglob" stuff.
-
       case '?':
       case '*':
       case '+':
       case '@':
       case '!':
-        this.debug('%s\t%s %s %j <-- stateChar', pattern, i, re, c); // all of those are literals inside a class, except that
-        // the glob [!a] means [^a] in regexp
+        this.debug('%s\t%s %s %j <-- stateChar', pattern, i, re, c);
 
+        // all of those are literals inside a class, except that
+        // the glob [!a] means [^a] in regexp
         if (inClass) {
           this.debug('  in class');
           if (c === '!' && i === classStart + 1) c = '^';
           re += c;
           continue;
-        } // if we already have a stateChar, then it means
+        }
+
+        // if we already have a stateChar, then it means
         // that there was something like ** or +? in there.
         // Handle the stateChar, then proceed with this one.
-
-
         self.debug('call clearStateChar %j', stateChar);
         clearStateChar();
-        stateChar = c; // if extglob is disabled, then +(asdf|foo) isn't a thing.
+        stateChar = c;
+        // if extglob is disabled, then +(asdf|foo) isn't a thing.
         // just clear the statechar *now*, rather than even diving into
         // the patternList stuff.
-
         if (options.noext) clearStateChar();
         continue;
-
       case '(':
         if (inClass) {
           re += '(';
           continue;
         }
-
         if (!stateChar) {
           re += '\\(';
           continue;
         }
-
         patternListStack.push({
           type: stateChar,
           start: i - 1,
           reStart: re.length,
           open: plTypes[stateChar].open,
           close: plTypes[stateChar].close
-        }); // negation is (?:(?!js)[^/]*)
-
+        });
+        // negation is (?:(?!js)[^/]*)
         re += stateChar === '!' ? '(?:(?!(?:' : '(?:';
         this.debug('plType %j %j', stateChar, re);
         stateChar = false;
         continue;
-
       case ')':
         if (inClass || !patternListStack.length) {
           re += '\\)';
           continue;
         }
-
         clearStateChar();
         hasMagic = true;
-        var pl = patternListStack.pop(); // negation is (?:(?!js)[^/]*)
+        var pl = patternListStack.pop();
+        // negation is (?:(?!js)[^/]*)
         // The others are (?:<pattern>)<type>
-
         re += pl.close;
-
         if (pl.type === '!') {
           negativeLists.push(pl);
         }
-
         pl.reEnd = re.length;
         continue;
-
       case '|':
         if (inClass || !patternListStack.length || escaping) {
           re += '\\|';
           escaping = false;
           continue;
         }
-
         clearStateChar();
         re += '|';
         continue;
-      // these are mostly the same in regexp and glob
 
+      // these are mostly the same in regexp and glob
       case '[':
         // swallow any state-tracking char before the [
         clearStateChar();
-
         if (inClass) {
           re += '\\' + c;
           continue;
         }
-
         inClass = true;
         classStart = i;
         reClassStart = re.length;
         re += c;
         continue;
-
       case ']':
         //  a right bracket shall lose its special
         //  meaning and represent itself in
@@ -5398,10 +5108,10 @@ function parse(pattern, isSub) {
           re += '\\' + c;
           escaping = false;
           continue;
-        } // handle the case where we left a class open.
+        }
+
+        // handle the case where we left a class open.
         // "[z-a]" is valid, equivalent to "\[z-a\]"
-
-
         if (inClass) {
           // split where the last [ was, make sure we don't have
           // an invalid re. if so, re-walk the contents of the
@@ -5411,7 +5121,6 @@ function parse(pattern, isSub) {
           // without a try/catch and a new RegExp, but it's tricky
           // to do safely.  For now, this is safe and works.
           var cs = pattern.substring(classStart + 1, i);
-
           try {
             RegExp('[' + cs + ']');
           } catch (er) {
@@ -5422,33 +5131,28 @@ function parse(pattern, isSub) {
             inClass = false;
             continue;
           }
-        } // finish up the class.
+        }
 
-
+        // finish up the class.
         hasMagic = true;
         inClass = false;
         re += c;
         continue;
-
       default:
         // swallow any state char that wasn't consumed
         clearStateChar();
-
         if (escaping) {
           // no need
           escaping = false;
         } else if (reSpecials[c] && !(c === '^' && inClass)) {
           re += '\\';
         }
-
         re += c;
     } // switch
-
   } // for
+
   // handle the case where we left a class open.
   // "[abc" is valid, equivalent to "\[abc"
-
-
   if (inClass) {
     // split where the last [ was, and escape it
     // this is a huge pita.  We now have to re-walk
@@ -5458,115 +5162,107 @@ function parse(pattern, isSub) {
     sp = this.parse(cs, SUBPARSE);
     re = re.substr(0, reClassStart) + '\\[' + sp[0];
     hasMagic = hasMagic || sp[1];
-  } // handle the case where we had a +( thing at the *end*
+  }
+
+  // handle the case where we had a +( thing at the *end*
   // of the pattern.
   // each pattern list stack adds 3 chars, and we need to go through
   // and escape any | chars that were passed through as-is for the regexp.
   // Go through and escape them, taking care not to double-escape any
   // | chars that were already escaped.
-
-
   for (pl = patternListStack.pop(); pl; pl = patternListStack.pop()) {
     var tail = re.slice(pl.reStart + pl.open.length);
-    this.debug('setting tail', re, pl); // maybe some even number of \, then maybe 1 \, followed by a |
-
+    this.debug('setting tail', re, pl);
+    // maybe some even number of \, then maybe 1 \, followed by a |
     tail = tail.replace(/((?:\\{2}){0,64})(\\?)\|/g, function (_, $1, $2) {
       if (!$2) {
         // the | isn't already escaped, so escape it.
         $2 = '\\';
-      } // need to escape all those slashes *again*, without escaping the
+      }
+
+      // need to escape all those slashes *again*, without escaping the
       // one that we need for escaping the | character.  As it works out,
       // escaping an even number of slashes can be done by simply repeating
       // it exactly after itself.  That's why this trick works.
       //
       // I am sorry that you have to see this.
-
-
       return $1 + $1 + $2 + '|';
     });
     this.debug('tail=%j\n   %s', tail, tail, pl, re);
     var t = pl.type === '*' ? star : pl.type === '?' ? qmark : '\\' + pl.type;
     hasMagic = true;
     re = re.slice(0, pl.reStart) + t + '\\(' + tail;
-  } // handle trailing things that only matter at the very end.
+  }
 
-
+  // handle trailing things that only matter at the very end.
   clearStateChar();
-
   if (escaping) {
     // trailing \\
     re += '\\\\';
-  } // only need to apply the nodot start if the re starts with
+  }
+
+  // only need to apply the nodot start if the re starts with
   // something that could conceivably capture a dot
-
-
   var addPatternStart = false;
-
   switch (re.charAt(0)) {
     case '.':
     case '[':
     case '(':
       addPatternStart = true;
-  } // Hack to work around lack of negative lookbehind in JS
+  }
+
+  // Hack to work around lack of negative lookbehind in JS
   // A pattern like: *.!(x).!(y|z) needs to ensure that a name
   // like 'a.xyz.yz' doesn't match.  So, the first negative
   // lookahead, has to look ALL the way ahead, to the end of
   // the pattern.
-
-
   for (var n = negativeLists.length - 1; n > -1; n--) {
     var nl = negativeLists[n];
     var nlBefore = re.slice(0, nl.reStart);
     var nlFirst = re.slice(nl.reStart, nl.reEnd - 8);
     var nlLast = re.slice(nl.reEnd - 8, nl.reEnd);
     var nlAfter = re.slice(nl.reEnd);
-    nlLast += nlAfter; // Handle nested stuff like *(*.js|!(*.json)), where open parens
+    nlLast += nlAfter;
+
+    // Handle nested stuff like *(*.js|!(*.json)), where open parens
     // mean that we should *not* include the ) in the bit that is considered
     // "after" the negated section.
-
     var openParensBefore = nlBefore.split('(').length - 1;
     var cleanAfter = nlAfter;
-
     for (i = 0; i < openParensBefore; i++) {
       cleanAfter = cleanAfter.replace(/\)[+*?]?/, '');
     }
-
     nlAfter = cleanAfter;
     var dollar = '';
-
     if (nlAfter === '' && isSub !== SUBPARSE) {
       dollar = '$';
     }
-
     var newRe = nlBefore + nlFirst + nlAfter + dollar + nlLast;
     re = newRe;
-  } // if the re is not "" at this point, then we need to make sure
+  }
+
+  // if the re is not "" at this point, then we need to make sure
   // it doesn't match against an empty path part.
   // Otherwise a/* will match a/, which it should not.
-
-
   if (re !== '' && hasMagic) {
     re = '(?=.)' + re;
   }
-
   if (addPatternStart) {
     re = patternStart + re;
-  } // parsing just a piece of a larger pattern.
+  }
 
-
+  // parsing just a piece of a larger pattern.
   if (isSub === SUBPARSE) {
     return [re, hasMagic];
-  } // skip the regexp for non-magical patterns
+  }
+
+  // skip the regexp for non-magical patterns
   // unescape anything in it, though, so that it'll be
   // an exact match against a file etc.
-
-
   if (!hasMagic) {
     return globUnescape(pattern);
   }
-
   var flags = options.nocase ? 'i' : '';
-
   try {
     var regExp = new RegExp('^' + re + '$', flags);
   } catch (er) {
@@ -5576,33 +5272,28 @@ function parse(pattern, isSub) {
     // mode, but it's not a /m regex.
     return new RegExp('$.');
   }
-
   regExp._glob = pattern;
   regExp._src = re;
   return regExp;
 }
-
 minimatch.makeRe = function (pattern, options) {
   return new Minimatch(pattern, options || {}).makeRe();
 };
-
 Minimatch.prototype.makeRe = makeRe;
-
 function makeRe() {
-  if (this.regexp || this.regexp === false) return this.regexp; // at this point, this.set is a 2d array of partial
+  if (this.regexp || this.regexp === false) return this.regexp;
+
+  // at this point, this.set is a 2d array of partial
   // pattern strings, or "**".
   //
   // It's better to use .match().  This function shouldn't
   // be used, really, but it's pretty convenient sometimes,
   // when you just want to work with a regex.
-
   var set = this.set;
-
   if (!set.length) {
     this.regexp = false;
     return this.regexp;
   }
-
   var options = this.options;
   var twoStar = options.noglobstar ? star : options.dot ? twoStarDot : twoStarNoDot;
   var flags = options.nocase ? 'i' : '';
@@ -5610,96 +5301,90 @@ function makeRe() {
     return pattern.map(function (p) {
       return p === GLOBSTAR ? twoStar : typeof p === 'string' ? regExpEscape(p) : p._src;
     }).join('\\\/');
-  }).join('|'); // must match entire pattern
+  }).join('|');
+
+  // must match entire pattern
   // ending in a * or ** will make it less strict.
+  re = '^(?:' + re + ')$';
 
-  re = '^(?:' + re + ')$'; // can match anything, as long as it's not this.
-
+  // can match anything, as long as it's not this.
   if (this.negate) re = '^(?!' + re + ').*$';
-
   try {
     this.regexp = new RegExp(re, flags);
   } catch (ex) {
     this.regexp = false;
   }
-
   return this.regexp;
 }
-
 minimatch.match = function (list, pattern, options) {
   options = options || {};
   var mm = new Minimatch(pattern, options);
   list = list.filter(function (f) {
     return mm.match(f);
   });
-
   if (mm.options.nonull && !list.length) {
     list.push(pattern);
   }
-
   return list;
 };
-
 Minimatch.prototype.match = match;
-
 function match(f, partial) {
-  this.debug('match', f, this.pattern); // short-circuit in the case of busted things.
+  this.debug('match', f, this.pattern);
+  // short-circuit in the case of busted things.
   // comments, etc.
-
   if (this.comment) return false;
   if (this.empty) return f === '';
   if (f === '/' && partial) return true;
-  var options = this.options; // windows: need to use /, not \
+  var options = this.options;
 
+  // windows: need to use /, not \
   if (path.sep !== '/') {
     f = f.split(path.sep).join('/');
-  } // treat the test path as a set of pathparts.
+  }
 
-
+  // treat the test path as a set of pathparts.
   f = f.split(slashSplit);
-  this.debug(this.pattern, 'split', f); // just ONE of the pattern sets in this.set needs to match
+  this.debug(this.pattern, 'split', f);
+
+  // just ONE of the pattern sets in this.set needs to match
   // in order for it to be valid.  If negating, then just one
   // match means that we have failed.
   // Either way, return on the first hit.
 
   var set = this.set;
-  this.debug(this.pattern, 'set', set); // Find the basename of the path by looking for the last non-empty segment
+  this.debug(this.pattern, 'set', set);
 
+  // Find the basename of the path by looking for the last non-empty segment
   var filename;
   var i;
-
   for (i = f.length - 1; i >= 0; i--) {
     filename = f[i];
     if (filename) break;
   }
-
   for (i = 0; i < set.length; i++) {
     var pattern = set[i];
     var file = f;
-
     if (options.matchBase && pattern.length === 1) {
       file = [filename];
     }
-
     var hit = this.matchOne(file, pattern, partial);
-
     if (hit) {
       if (options.flipNegate) return true;
       return !this.negate;
     }
-  } // didn't get any hits.  this is success if it's a negative
+  }
+
+  // didn't get any hits.  this is success if it's a negative
   // pattern, failure otherwise.
-
-
   if (options.flipNegate) return false;
   return this.negate;
-} // set partial to true to test if, for example,
+}
+
+// set partial to true to test if, for example,
 // "/a/b" matches the start of "/*/b/*/d"
 // Partial means, if you run out of file before you run
 // out of pattern, then that's fine, as long as all
 // the parts match.
-
-
 Minimatch.prototype.matchOne = function (file, pattern, partial) {
   var options = this.options;
   this.debug('matchOne', {
@@ -5708,18 +5393,19 @@ Minimatch.prototype.matchOne = function (file, pattern, partial) {
     pattern: pattern
   });
   this.debug('matchOne', file.length, pattern.length);
-
   for (var fi = 0, pi = 0, fl = file.length, pl = pattern.length; fi < fl && pi < pl; fi++, pi++) {
     this.debug('matchOne loop');
     var p = pattern[pi];
     var f = file[fi];
-    this.debug(pattern, p, f); // should be impossible.
+    this.debug(pattern, p, f);
+
+    // should be impossible.
     // some invalid regexp stuff in the set.
-
     if (p === false) return false;
-
     if (p === GLOBSTAR) {
-      this.debug('GLOBSTAR', [pattern, p, f]); // "**"
+      this.debug('GLOBSTAR', [pattern, p, f]);
+
+      // "**"
       // a/**/b/**/c would match the following:
       // a/b/x/y/z/c
       // a/x/y/z/b/c
@@ -5741,33 +5427,31 @@ Minimatch.prototype.matchOne = function (file, pattern, partial) {
       //       - matchOne(y/z/c, c) -> no
       //       - matchOne(z/c, c) -> no
       //       - matchOne(c, c) yes, hit
-
       var fr = fi;
       var pr = pi + 1;
-
       if (pr === pl) {
-        this.debug('** at the end'); // a ** at the end will just swallow the rest.
+        this.debug('** at the end');
+        // a ** at the end will just swallow the rest.
         // We have found a match.
         // however, it will not swallow /.x, unless
         // options.dot is set.
         // . and .. are *never* matched by **, for explosively
         // exponential reasons.
-
         for (; fi < fl; fi++) {
           if (file[fi] === '.' || file[fi] === '..' || !options.dot && file[fi].charAt(0) === '.') return false;
         }
-
         return true;
-      } // ok, let's see if we can swallow whatever we can.
+      }
 
-
+      // ok, let's see if we can swallow whatever we can.
       while (fr < fl) {
         var swallowee = file[fr];
-        this.debug('\nglobstar while', file, fr, pattern, pr, swallowee); // XXX remove this slice.  Just pass the start index.
+        this.debug('\nglobstar while', file, fr, pattern, pr, swallowee);
 
+        // XXX remove this slice.  Just pass the start index.
         if (this.matchOne(file.slice(fr), pattern.slice(pr), partial)) {
-          this.debug('globstar found match!', fr, fl, swallowee); // found a match.
-
+          this.debug('globstar found match!', fr, fl, swallowee);
+          // found a match.
           return true;
         } else {
           // can't swallow "." or ".." ever.
@@ -5775,46 +5459,44 @@ Minimatch.prototype.matchOne = function (file, pattern, partial) {
           if (swallowee === '.' || swallowee === '..' || !options.dot && swallowee.charAt(0) === '.') {
             this.debug('dot detected!', file, fr, pattern, pr);
             break;
-          } // ** swallows a segment, and continue.
+          }
 
-
+          // ** swallows a segment, and continue.
           this.debug('globstar swallow a segment, and continue');
           fr++;
         }
-      } // no match was found.
+      }
+
+      // no match was found.
       // However, in partial mode, we can't say this is necessarily over.
       // If there's more *pattern* left, then
-
-
       if (partial) {
         // ran out of file
         this.debug('\n>>> no match, partial?', file, fr, pattern, pr);
         if (fr === fl) return true;
       }
-
       return false;
-    } // something other than **
+    }
+
+    // something other than **
     // non-magic patterns just have to match exactly
     // patterns with magic have been turned into regexps.
-
-
     var hit;
-
     if (typeof p === 'string') {
       if (options.nocase) {
         hit = f.toLowerCase() === p.toLowerCase();
       } else {
         hit = f === p;
       }
-
       this.debug('string match', p, f, hit);
     } else {
       hit = f.match(p);
       this.debug('pattern match', p, f, hit);
     }
-
     if (!hit) return false;
-  } // Note: ending in / means that we'll get a final ""
+  }
+
+  // Note: ending in / means that we'll get a final ""
   // at the end of the pattern.  This can only match a
   // corresponding "" at the end of the file.
   // If the file ends in /, then it can only match a
@@ -5824,9 +5506,8 @@ Minimatch.prototype.matchOne = function (file, pattern, partial) {
   // [^/]*? pattern, except in partial mode, where it might
   // simply not be reached yet.
   // However, a/b/ should still satisfy a/*
+
   // now either we fell off the end of the pattern, or we're done.
-
-
   if (fi === fl && pi === pl) {
     // ran out of pattern and filename at the same time.
     // an exact hit!
@@ -5843,17 +5524,16 @@ Minimatch.prototype.matchOne = function (file, pattern, partial) {
     // a/* should match a/b/
     var emptyFileEnd = fi === fl - 1 && file[fi] === '';
     return emptyFileEnd;
-  } // should be unreachable.
+  }
 
-
+  // should be unreachable.
   throw new Error('wtf?');
-}; // replace stuff like \* with *
+};
 
-
+// replace stuff like \* with *
 function globUnescape(s) {
   return s.replace(/\\(.)/g, '$1');
 }
-
 function regExpEscape(s) {
   return s.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
 }
@@ -5871,11 +5551,8 @@ function regExpEscape(s) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 var _fs = _interopRequireDefault(__webpack_require__(/*! fs */ "fs"));
-
 var _path = _interopRequireDefault(__webpack_require__(/*! path */ "path"));
-
 exports.favicons = [{
   src: "favicon-32x32.png",
   sizes: "32x32",
@@ -5928,7 +5605,6 @@ exports.doesIconExist = function doesIconExist(srcIcon) {
     if (e.code !== "ENOENT") {
       throw e;
     }
-
     return false;
   }
 };
@@ -5937,18 +5613,14 @@ exports.doesIconExist = function doesIconExist(srcIcon) {
  * @param {string} digest The digest of the icon provided in the plugin's options.
  */
 
-
 exports.addDigestToPath = function (path, digest, method) {
   if (method === "name") {
     var parsedPath = _path.default.parse(path);
-
     return parsedPath.dir + "/" + parsedPath.name + "-" + digest + parsedPath.ext;
   }
-
   if (method === "query") {
     return path + "?v=" + digest;
   }
-
   return path;
 };
 
@@ -5965,36 +5637,30 @@ exports.addDigestToPath = function (path, digest, method) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
-
 var React = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-
 var _gatsby = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
 var _common = __webpack_require__(/*! ./common.js */ "./node_modules/gatsby-plugin-manifest/common.js");
+var _getManifestPathname = _interopRequireDefault(__webpack_require__(/*! ./get-manifest-pathname */ "./node_modules/gatsby-plugin-manifest/get-manifest-pathname.js"));
 
-var _getManifestPathname = _interopRequireDefault(__webpack_require__(/*! ./get-manifest-pathname */ "./node_modules/gatsby-plugin-manifest/get-manifest-pathname.js")); // TODO: remove for v3
-
-
+// TODO: remove for v3
 var withPrefix = _gatsby.withAssetPrefix || _gatsby.withPrefix;
-
 exports.onRenderBody = function (_ref, _ref2) {
   var setHeadComponents = _ref.setHeadComponents,
-      _ref$pathname = _ref.pathname,
-      pathname = _ref$pathname === void 0 ? "/" : _ref$pathname;
+    _ref$pathname = _ref.pathname,
+    pathname = _ref$pathname === void 0 ? "/" : _ref$pathname;
   var localize = _ref2.localize,
-      legacy = _ref2.legacy,
-      cacheBusting = _ref2.cache_busting_mode,
-      cacheDigest = _ref2.cacheDigest,
-      icon = _ref2.icon,
-      pluginIcons = _ref2.icons,
-      insertFaviconLinkTag = _ref2.include_favicon,
-      insertMetaTag = _ref2.theme_color_in_head,
-      theme_color = _ref2.theme_color,
-      _ref2$crossOrigin = _ref2.crossOrigin,
-      crossOrigin = _ref2$crossOrigin === void 0 ? "anonymous" : _ref2$crossOrigin; // We use this to build a final array to pass as the argument to setHeadComponents at the end of onRenderBody.
-
+    legacy = _ref2.legacy,
+    cacheBusting = _ref2.cache_busting_mode,
+    cacheDigest = _ref2.cacheDigest,
+    icon = _ref2.icon,
+    pluginIcons = _ref2.icons,
+    insertFaviconLinkTag = _ref2.include_favicon,
+    insertMetaTag = _ref2.theme_color_in_head,
+    theme_color = _ref2.theme_color,
+    _ref2$crossOrigin = _ref2.crossOrigin,
+    crossOrigin = _ref2$crossOrigin === void 0 ? "anonymous" : _ref2$crossOrigin;
+  // We use this to build a final array to pass as the argument to setHeadComponents at the end of onRenderBody.
   var headComponents = [];
   var srcIconExists = !!icon;
   var icons = pluginIcons || _common.defaultIcons;
@@ -6010,7 +5676,6 @@ exports.onRenderBody = function (_ref, _ref2) {
           type: "image/png"
         }));
       });
-
       if (icon === null || icon === void 0 ? void 0 : icon.endsWith(".svg")) {
         headComponents.push( /*#__PURE__*/React.createElement("link", {
           key: "gatsby-plugin-manifest-icon-link-svg",
@@ -6021,7 +5686,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       }
     }
   } // Add manifest link tag.
-
 
   headComponents.push( /*#__PURE__*/React.createElement("link", {
     key: "gatsby-plugin-manifest-link",
@@ -6037,7 +5701,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       content: theme_color
     }));
   }
-
   if (legacy) {
     icons.forEach(function (icon) {
       headComponents.push( /*#__PURE__*/React.createElement("link", {
@@ -6048,7 +5711,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       }));
     });
   }
-
   setHeadComponents(headComponents);
   return true;
 };
@@ -6067,6 +5729,7 @@ exports.onRenderBody = function (_ref, _ref2) {
 
 exports.__esModule = true;
 exports.default = void 0;
+
 /**
  * Get a manifest filename depending on localized pathname
  *
@@ -6074,25 +5737,19 @@ exports.default = void 0;
  * @param {Array<{start_url: string, lang: string}>} localizedManifests
  * @return string
  */
-
 var _default = function _default(pathname, localizedManifests) {
   var defaultFilename = "manifest.webmanifest";
-
   if (!Array.isArray(localizedManifests)) {
     return defaultFilename;
   }
-
   var localizedManifest = localizedManifests.find(function (app) {
     return pathname.startsWith(app.start_url);
   });
-
   if (!localizedManifest) {
     return defaultFilename;
   }
-
   return "manifest_" + localizedManifest.lang + ".webmanifest";
 };
-
 exports.default = _default;
 
 /***/ }),
@@ -6108,36 +5765,29 @@ exports.default = _default;
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 exports.__esModule = true;
 exports.onRenderBody = exports.onPreRenderHTML = void 0;
-
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
 var onPreRenderHTML = function onPreRenderHTML(_ref) {
   var getHeadComponents = _ref.getHeadComponents,
-      pathname = _ref.pathname,
-      replaceHeadComponents = _ref.replaceHeadComponents;
+    pathname = _ref.pathname,
+    replaceHeadComponents = _ref.replaceHeadComponents;
   if (pathname !== "/offline-plugin-app-shell-fallback/") return;
   var headComponents = getHeadComponents();
   var filteredHeadComponents = headComponents.filter(function (_ref2) {
     var type = _ref2.type,
-        props = _ref2.props;
+      props = _ref2.props;
     return !(type === "link" && props.as === "fetch" && props.rel === "preload" && (props.href.startsWith("/static/d/") || props.href.startsWith("/page-data/")));
   });
   replaceHeadComponents(filteredHeadComponents);
 };
-
 exports.onPreRenderHTML = onPreRenderHTML;
-
 var onRenderBody = function onRenderBody(_ref3) {
   var pathname = _ref3.pathname,
-      setHeadComponents = _ref3.setHeadComponents;
-
+    setHeadComponents = _ref3.setHeadComponents;
   if (pathname !== "/offline-plugin-app-shell-fallback/") {
     return;
   }
-
   setHeadComponents([/*#__PURE__*/_react.default.createElement("noscript", {
     key: "disable-offline-shell"
   }, /*#__PURE__*/_react.default.createElement("meta", {
@@ -6145,7 +5795,6 @@ var onRenderBody = function onRenderBody(_ref3) {
     content: "0;url=/.gatsby-plugin-offline:api=disableOfflineShell&redirect=true"
   }))]);
 };
-
 exports.onRenderBody = onRenderBody;
 
 /***/ }),
@@ -6162,28 +5811,21 @@ exports.onRenderBody = onRenderBody;
 
 exports.__esModule = true;
 exports.onRenderBody = void 0;
-
 var _reactHelmet = __webpack_require__(/*! react-helmet */ "react-helmet");
-
 var onRenderBody = function onRenderBody(_ref) {
   var setHeadComponents = _ref.setHeadComponents,
-      setHtmlAttributes = _ref.setHtmlAttributes,
-      setBodyAttributes = _ref.setBodyAttributes;
-
+    setHtmlAttributes = _ref.setHtmlAttributes,
+    setBodyAttributes = _ref.setBodyAttributes;
   var helmet = _reactHelmet.Helmet.renderStatic(); // These action functions were added partway through the Gatsby 1.x cycle.
-
 
   if (setHtmlAttributes) {
     setHtmlAttributes(helmet.htmlAttributes.toComponent());
   }
-
   if (setBodyAttributes) {
     setBodyAttributes(helmet.bodyAttributes.toComponent());
   }
-
   setHeadComponents([helmet.title.toComponent(), helmet.link.toComponent(), helmet.meta.toComponent(), helmet.noscript.toComponent(), helmet.script.toComponent(), helmet.style.toComponent(), helmet.base.toComponent()]);
 };
-
 exports.onRenderBody = onRenderBody;
 
 /***/ }),
@@ -6199,28 +5841,23 @@ exports.onRenderBody = onRenderBody;
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
-
 var _styledComponents = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-
 var sheetByPathname = new Map(); // eslint-disable-next-line react/prop-types,react/display-name
 
 exports.wrapRootElement = function (_ref) {
   var element = _ref.element,
-      pathname = _ref.pathname;
+    pathname = _ref.pathname;
   var sheet = new _styledComponents.ServerStyleSheet();
   sheetByPathname.set(pathname, sheet);
   return /*#__PURE__*/_react.default.createElement(_styledComponents.StyleSheetManager, {
     sheet: sheet.instance
   }, element);
 };
-
 exports.onRenderBody = function (_ref2) {
   var setHeadComponents = _ref2.setHeadComponents,
-      pathname = _ref2.pathname;
+    pathname = _ref2.pathname;
   var sheet = sheetByPathname.get(pathname);
-
   if (sheet) {
     setHeadComponents([sheet.getStyleElement()]);
     sheetByPathname.delete(pathname);
@@ -6612,6 +6249,64 @@ function useScrollRestoration(identifier) {
     }
   };
 }
+
+/***/ }),
+
+/***/ "./node_modules/gatsby/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/gatsby/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopDefault(e){return e&&"object"==typeof e&&"default"in e?e.default:e}Object.defineProperty(exports,"__esModule",{value:!0});var React=_interopDefault(__webpack_require__(/*! react */ "react"));function AppContainer(e){return AppContainer.warnAboutHMRDisabled&&(AppContainer.warnAboutHMRDisabled=!0,console.error("React-Hot-Loader: misconfiguration detected, using production version in non-production environment."),console.error("React-Hot-Loader: Hot Module Replacement is not enabled.")),React.Children.only(e.children)}AppContainer.warnAboutHMRDisabled=!1;var hot=function e(){return e.shouldWrapWithAppContainer?function(e){return function(n){return React.createElement(AppContainer,null,React.createElement(e,n))}}:function(e){return e}};hot.shouldWrapWithAppContainer=!1;var areComponentsEqual=function(e,n){return e===n},setConfig=function(){},cold=function(e){return e},configureComponent=function(){};exports.AppContainer=AppContainer,exports.hot=hot,exports.areComponentsEqual=areComponentsEqual,exports.setConfig=setConfig,exports.cold=cold,exports.configureComponent=configureComponent;
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby/node_modules/react-hot-loader/index.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/gatsby/node_modules/react-hot-loader/index.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else if (false) {} else if (typeof window === 'undefined') {
+  // this is just server environment
+  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/gatsby/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
+} else if (true) {
+  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/gatsby/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
+  module.exports.AppContainer.warnAboutHMRDisabled = true;
+  module.exports.hot.shouldWrapWithAppContainer = true;
+} else { var jsFeaturesPresent, evalError, evalAllowed; }
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby/node_modules/react-hot-loader/root.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/gatsby/node_modules/react-hot-loader/root.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (true) {
+  var hot = __webpack_require__(/*! ./index */ "./node_modules/gatsby/node_modules/react-hot-loader/index.js").hot;
+  if (false) { var parent, cache; } else {
+    fallbackHot();
+  }
+} else {}
+
+function fallbackHot() {
+  exports.hot = function (a) {
+    return a;
+  };
+}
+
 
 /***/ }),
 
@@ -52045,64 +51740,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-function _interopDefault(e){return e&&"object"==typeof e&&"default"in e?e.default:e}Object.defineProperty(exports,"__esModule",{value:!0});var React=_interopDefault(__webpack_require__(/*! react */ "react"));function AppContainer(e){return AppContainer.warnAboutHMRDisabled&&(AppContainer.warnAboutHMRDisabled=!0,console.error("React-Hot-Loader: misconfiguration detected, using production version in non-production environment."),console.error("React-Hot-Loader: Hot Module Replacement is not enabled.")),React.Children.only(e.children)}AppContainer.warnAboutHMRDisabled=!1;var hot=function e(){return e.shouldWrapWithAppContainer?function(e){return function(n){return React.createElement(AppContainer,null,React.createElement(e,n))}}:function(e){return e}};hot.shouldWrapWithAppContainer=!1;var areComponentsEqual=function(e,n){return e===n},setConfig=function(){},cold=function(e){return e},configureComponent=function(){};exports.AppContainer=AppContainer,exports.hot=hot,exports.areComponentsEqual=areComponentsEqual,exports.setConfig=setConfig,exports.cold=cold,exports.configureComponent=configureComponent;
-
-
-/***/ }),
-
-/***/ "./node_modules/react-hot-loader/index.js":
-/*!************************************************!*\
-  !*** ./node_modules/react-hot-loader/index.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {} else if (false) {} else if (typeof window === 'undefined') {
-  // this is just server environment
-  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-} else if (true) {
-  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  module.exports.AppContainer.warnAboutHMRDisabled = true;
-  module.exports.hot.shouldWrapWithAppContainer = true;
-} else { var jsFeaturesPresent, evalError, evalAllowed; }
-
-
-/***/ }),
-
-/***/ "./node_modules/react-hot-loader/root.js":
-/*!***********************************************!*\
-  !*** ./node_modules/react-hot-loader/root.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-if (true) {
-  var hot = __webpack_require__(/*! ./index */ "./node_modules/react-hot-loader/index.js").hot;
-  if (false) { var parent, cache; } else {
-    fallbackHot();
-  }
-} else {}
-
-function fallbackHot() {
-  exports.hot = function (a) {
-    return a;
-  };
-}
-
-
-/***/ }),
-
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -57625,17 +57262,6 @@ module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/3969716136.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3969716136.json ***!
-  \***********************************************/
-/*! exports provided: data, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"data\":{\"allMarkdownRemark\":{\"group\":[{\"fieldValue\":\"AI\",\"totalCount\":1},{\"fieldValue\":\"Dropout\",\"totalCount\":1},{\"fieldValue\":\"Machine Learning\",\"totalCount\":1},{\"fieldValue\":\"Neural Network\",\"totalCount\":1}]}}}");
-
-/***/ }),
-
 /***/ "./public/page-data/sq/d/63159454.json":
 /*!*********************************************!*\
   !*** ./public/page-data/sq/d/63159454.json ***!
@@ -57644,61 +57270,6 @@ module.exports = JSON.parse("{\"data\":{\"allMarkdownRemark\":{\"group\":[{\"fie
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"SachAI\",\"description\":\"Hey there! I am Nikhil Kumar, an undergrad in Information Science. I participate in Kaggle to enhance my skills and be competitive in Deep Learning and CV. I love reading History and Foreign Relations.\",\"author\":\"Nikhil Kumar\"}}}}");
-
-/***/ }),
-
-/***/ "./src/components/CategoriesTags/categoriesTags.js":
-/*!*********************************************************!*\
-  !*** ./src/components/CategoriesTags/categoriesTags.js ***!
-  \*********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_page_data_sq_d_3969716136_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/3969716136.json */ "./public/page-data/sq/d/3969716136.json");
-var _public_page_data_sq_d_3969716136_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/3969716136.json */ "./public/page-data/sq/d/3969716136.json", 1);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_kebabCase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/kebabCase */ "lodash/kebabCase");
-/* harmony import */ var lodash_kebabCase__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_kebabCase__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common */ "./src/components/common/index.js");
-
-
-
-
-
-
-
-const CategoriesTags = () => {
-  const data = _public_page_data_sq_d_3969716136_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, data.allMarkdownRemark.group.map(tag => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_5__["Tag"], {
-    as: gatsby__WEBPACK_IMPORTED_MODULE_4__["Link"],
-    key: tag.fieldValue,
-    to: `/${lodash_kebabCase__WEBPACK_IMPORTED_MODULE_3___default()(tag.fieldValue)}/`,
-    activeClassName: "active"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null, tag.fieldValue, " ", tag.totalCount, " "))))));
-};
-
-CategoriesTags.propTypes = {
-  data: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
-    allMarkdownRemark: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
-      group: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
-        fieldValue: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
-        totalCount: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number.isRequired
-      }).isRequired)
-    }),
-    site: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
-      siteMetadata: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
-        title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
-      })
-    })
-  })
-};
-/* harmony default export */ __webpack_exports__["default"] = (CategoriesTags);
 
 /***/ }),
 
@@ -57721,11 +57292,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // Round number up to nearest step for better canvas performance
-
-const round = (n, step = 20) => Math.ceil(n / step) * step; // Try making me lower to see how performance degrades
 
 
+// Round number up to nearest step for better canvas performance
+const round = (n, step = 20) => Math.ceil(n / step) * step;
+
+// Try making me lower to see how performance degrades
 const STEP = 30;
 const particleOptions = {
   filter: ({
@@ -57734,8 +57306,8 @@ const particleOptions = {
     image
   }) => {
     // Get pixel
-    const pixel = image.get(x, y); // Make a particle for this pixel if magnitude < 200 (range 0-255)
-
+    const pixel = image.get(x, y);
+    // Make a particle for this pixel if magnitude < 200 (range 0-255)
     const magnitude = (pixel.r + pixel.g + pixel.b) / 3;
     return magnitude < 200;
   },
@@ -57744,11 +57316,11 @@ const particleOptions = {
     y,
     image
   }) => {
-    const pixel = image.get(x, y); // Canvases are much more performant when painting as few colors as possible.
+    const pixel = image.get(x, y);
+    // Canvases are much more performant when painting as few colors as possible.
     // Use color of pixel as color for particle however round to nearest 30
     // to decrease the number of unique colors painted on the canvas.
     // You'll notice if we remove this rounding, the framerate will slow down a lot.
-
     return `rgba(
       ${round(pixel.r, STEP)}, 
       ${round(pixel.g, STEP)}, 
@@ -57762,8 +57334,8 @@ const particleOptions = {
     image
   }) => {
     const pixel = image.get(x, y);
-    const magnitude = (pixel.r + pixel.g + pixel.b) / 3; // Lighter colors will have smaller radius
-
+    const magnitude = (pixel.r + pixel.g + pixel.b) / 3;
+    // Lighter colors will have smaller radius
     return 3 - magnitude / 255 * 1.5;
   },
   mass: () => 40,
@@ -57774,13 +57346,10 @@ const particleOptions = {
     return new react_particle_image__WEBPACK_IMPORTED_MODULE_4__["Vector"](canvasDimensions.width / 2, canvasDimensions.height / 2);
   }
 };
-
 const motionForce = (x, y) => {
   return react_particle_image__WEBPACK_IMPORTED_MODULE_4__["forces"].disturbance(x, y, 7);
 };
-
 const src = "about.jpg";
-
 const About = () => {
   // const data = useStaticQuery(graphql`
   //   query {
@@ -57800,7 +57369,6 @@ const About = () => {
     target: "_blank"
   }, " Download resume "))))));
 };
-
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
@@ -57827,12 +57395,12 @@ __webpack_require__.r(__webpack_exports__);
 
 const AboutSection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "style__AboutSection"
-})(["text-align:left;"]); // export const Avatar =styled(Img)`
+})(["text-align:left;"]);
+// export const Avatar =styled(Img)`
 //   border-radius: 5px;
 //   box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.15);
 //   width: 100%;
 // `
-
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "style__Title"
 })(["font-size:3rem;text-transform:capitalize;font-family:\"GT-Walsheim-Pro-Bold\";@media(max-width:", "){font-size:2rem;text-align:left;}"], _data_variables__WEBPACK_IMPORTED_MODULE_2__["default"].breakpointPhone);
@@ -58141,7 +57709,6 @@ var _data_socialMedia_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*
 
 
 
-
 const Footer = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_3__["FooterStyle"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_4__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_3__["FooterBody"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_3__["FooterSocialMedia"], null, _data_socialMedia_json__WEBPACK_IMPORTED_MODULE_1__.map(({
     id,
@@ -58169,7 +57736,6 @@ const Footer = () => {
     href: "https://github.com/AbdaliDahir/"
   }, "Abdali Dahir")), " ")))));
 };
-
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
@@ -58238,7 +57804,6 @@ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0___namespac
 
 
 
-
 const Layout = ({
   children
 }) => {
@@ -58247,7 +57812,6 @@ const Layout = ({
     siteTitle: data.site.siteMetadata.title
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_5__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", null, children))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 };
-
 Layout.propTypes = {
   children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node.isRequired
 };
@@ -58271,7 +57835,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-feather */ "./node_modules/react-feather/dist/index.js");
 /* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style */ "./src/components/layout/navbar/style.js");
-
 
 
 
@@ -58322,7 +57885,6 @@ const Navbar = ({
   className: "lined-link",
   activeClassName: "active"
 }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_3__["Feather"], null), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, " Blog "), " ")))))));
-
 Navbar.propTypes = {
   siteTitle: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string
 };
@@ -58379,7 +57941,6 @@ var _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0___namespace 
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "react-helmet");
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
 
-
 /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
@@ -58433,7 +57994,6 @@ function SEO({
     }].concat(meta)
   });
 }
-
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
@@ -58446,48 +58006,6 @@ SEO.propTypes = {
   title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (SEO);
-
-/***/ }),
-
-/***/ "./src/components/styled/posts.js":
-/*!****************************************!*\
-  !*** ./src/components/styled/posts.js ***!
-  \****************************************/
-/*! exports provided: Intro, Title, ArticlePost, SmallText, ArticleBody, NaviagtionList, NaviagtionLi */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Intro", function() { return Intro; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArticlePost", function() { return ArticlePost; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SmallText", function() { return SmallText; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArticleBody", function() { return ArticleBody; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NaviagtionList", function() { return NaviagtionList; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NaviagtionLi", function() { return NaviagtionLi; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-
-const Intro = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "posts__Intro"
-})(["padding:8rem 0 4rem 0;text-align:left;"]);
-const Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConfig({
-  displayName: "posts__Title"
-})(["font-size:2rem;text-transform:capitalize;font-family:\"GT-Walsheim-Pro-Bold\";"]);
-const ArticlePost = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].article.withConfig({
-  displayName: "posts__ArticlePost"
-})(["margin-bottom:5rem;padding-bottom:1rem;max-width:60rem;margin:auto;text-align:center;img[src$=\"imgresponsive\"]{max-width:80%;}"]);
-const SmallText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].small.withConfig({
-  displayName: "posts__SmallText"
-})(["font-size:.89rem;padding-right:10px;font-family:\"GT-Walsheim-Pro-Regular\";> span{padding-left:5px;}"]);
-const ArticleBody = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "posts__ArticleBody"
-})(["margin-top:5rem;p{font-size:1.5rem;font-family:\"GT-Walsheim-Pro-Medium\";}"]);
-const NaviagtionList = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].ul.withConfig({
-  displayName: "posts__NaviagtionList"
-})(["display:grid;grid-template-columns:1fr 1fr;grid-column-gap:5rem;grid-row-gap:5rem;list-style:none;padding:0;border-top:4px solid #ff2d2d;border-bottom:4px solid #ff2d2d;"]);
-const NaviagtionLi = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].li.withConfig({
-  displayName: "posts__NaviagtionLi"
-})(["padding:2rem 0;&:last-child{text-align:right;}a{font-size:1.3rem;font-family:\"GT-Walsheim-Pro-Medium\";}"]);
 
 /***/ }),
 
@@ -58594,7 +58112,6 @@ __webpack_require__.r(__webpack_exports__);
   breakpointTablet: "1024px",
   breakpointLaptop: "1200px",
   breakpointLarge: "60em" // 960px
-
 });
 
 /***/ }),
@@ -58617,7 +58134,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const NotFoundPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
   title: "404: Not found"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_3__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_3__["Intro"], {
@@ -58631,108 +58147,7 @@ const NotFoundPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___defau
   fill: "#ff2d2d",
   d: "M691.686,107.758 L660.638,107.758 L583.685,268.588 C583.141,269.724 582.026,270.451 580.796,270.489 C580.329,270.819 579.784,271.017 579.214,271.017 L482.011,271.017 C480.767,271.017 479.626,270.304 479.056,269.182 C478.485,268.060 478.590,266.701 479.315,265.670 C505.891,227.929 518.816,185.183 518.816,135.019 C518.816,84.961 505.903,42.545 479.327,5.371 C478.590,4.340 478.485,2.981 479.056,1.846 C479.626,0.711 480.767,-0.001 482.011,-0.001 L503.661,-0.001 C504.685,-0.001 505.644,0.474 506.279,1.292 C534.423,38.016 548.697,83.126 548.697,135.349 C548.697,177.923 539.414,214.859 520.345,248.048 L564.487,248.048 L642.684,84.630 C643.214,83.521 644.278,82.808 645.485,82.729 C645.821,82.597 646.197,82.518 646.586,82.518 L691.686,82.518 C693.515,82.518 695.006,84.036 695.006,85.897 L695.006,104.379 C695.006,106.240 693.515,107.758 691.686,107.758 ZM444.106,36.486 C417.296,127.600 374.167,180.616 300.041,213.671 C299.600,213.856 299.159,213.949 298.705,213.949 C297.655,213.949 296.644,213.448 296.009,212.536 C293.624,209.144 288.166,202.636 284.678,199.321 C283.861,198.544 283.485,197.394 283.681,196.258 C283.875,195.137 284.626,194.186 285.665,193.737 C358.882,162.319 396.932,114.426 421.368,22.915 C421.627,21.924 422.327,21.107 423.247,20.698 C424.155,20.287 425.218,20.314 426.126,20.817 C445.700,31.403 445.429,32.513 444.780,35.205 C444.663,35.668 444.416,36.103 444.106,36.486 ZM355.279,88.235 L337.881,90.980 C337.713,91.006 337.545,91.020 337.375,91.020 C336.637,91.020 335.898,90.768 335.314,90.281 C334.589,89.699 334.136,88.829 334.070,87.891 C332.619,68.261 327.315,38.862 321.456,17.991 C321.197,17.067 321.339,16.077 321.832,15.271 C322.338,14.453 323.155,13.898 324.088,13.741 L341.239,10.744 C342.950,10.440 344.557,11.495 344.998,13.173 C350.533,33.568 356.822,64.684 358.079,84.671 C358.196,86.427 356.976,87.971 355.279,88.235 ZM272.311,103.310 C271.974,103.429 271.624,103.481 271.274,103.481 C270.691,103.481 270.120,103.324 269.601,103.020 C268.785,102.531 268.201,101.713 268.019,100.763 C264.675,83.746 254.473,54.241 245.270,35.008 C244.841,34.136 244.815,33.107 245.191,32.209 C245.567,31.310 246.320,30.612 247.226,30.308 L263.147,25.066 C264.663,24.552 266.374,25.265 267.126,26.743 C276.875,46.069 287.557,76.235 290.927,93.976 C291.251,95.654 290.292,97.303 288.710,97.831 L272.311,103.310 ZM216.244,269.182 C215.686,270.318 214.545,271.017 213.301,271.017 L115.788,271.017 C115.127,271.017 114.504,270.819 113.986,270.477 C112.845,270.358 111.821,269.658 111.315,268.588 L34.363,107.758 L3.314,107.758 C1.487,107.758 -0.004,106.240 -0.004,104.379 L-0.004,85.897 C-0.004,84.036 1.487,82.518 3.314,82.518 L48.415,82.518 C48.831,82.518 49.232,82.597 49.594,82.743 C50.761,82.834 51.799,83.547 52.317,84.630 L130.514,248.048 L174.603,248.048 C155.560,214.966 146.291,178.240 146.291,135.997 C146.550,83.732 160.422,39.694 188.669,1.344 C189.304,0.500 190.277,-0.001 191.327,-0.001 L213.301,-0.001 C214.557,-0.001 215.698,0.724 216.270,1.859 C216.827,3.007 216.711,4.367 215.957,5.397 C189.409,41.673 176.496,84.393 176.496,135.997 C176.496,185.130 189.421,227.560 216.010,265.684 C216.722,266.713 216.813,268.060 216.244,269.182 Z"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_3__["Title"], null, "404"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_3__["Title"], null, "NOT FOUND"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_3__["SubText"], null, "You just hit a route that doesn't exist... the sadness."))));
-
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
-
-/***/ }),
-
-/***/ "./src/pages/blog.js":
-/*!***************************!*\
-  !*** ./src/pages/blog.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout/index.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather */ "./node_modules/react-feather/dist/index.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/common */ "./src/components/common/index.js");
-/* harmony import */ var _components_CategoriesTags_categoriesTags__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/CategoriesTags/categoriesTags */ "./src/components/CategoriesTags/categoriesTags.js");
-/* harmony import */ var lodash_kebabCase__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lodash/kebabCase */ "lodash/kebabCase");
-/* harmony import */ var lodash_kebabCase__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(lodash_kebabCase__WEBPACK_IMPORTED_MODULE_8__);
-
-
-
-
-
-
-
-
-
-
-const BlogIndex = ({
-  data
-}) => {
-  const posts = data.allMarkdownRemark.edges;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Blog Home Page"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Intro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubTitle"], null, "Articles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["HeaderIntro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubText"], null, "Articles on Deep Learning and AI, focused on frameworks such as PyTorch, Scikit Learn, etc. Includes blogs on feature engineering, computer vision and everything in between with practical tips from real world projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CategoriesTags_categoriesTags__WEBPACK_IMPORTED_MODULE_7__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], {
-    className: "wrapper"
-  }, posts.map(({
-    node
-  }) => {
-    const title = node.frontmatter.title || node.fields.slug;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["WorkPost"], {
-      key: node.fields.slug
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "media"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "image-wrapper"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-      to: node.fields.slug
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      fluid: node.frontmatter.image.childImageSharp.fluid,
-      title: "work title"
-    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "content"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-left"
-    }, node.frontmatter.categories.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-      to: `/${lodash_kebabCase__WEBPACK_IMPORTED_MODULE_8___default()(item)}`,
-      key: index
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-left text-primary text-underline"
-    }, "#", item), node.frontmatter.categories.length !== index + 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-left text-primary"
-    }, " , ") : "")), " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Title"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-      className: "text-primary",
-      style: {
-        boxShadow: `none`
-      },
-      to: node.fields.slug
-    }, title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Calendar"], {
-      className: "align-middle text-primary",
-      width: "18",
-      height: "18"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-middle"
-    }, " date published : ", node.frontmatter.date, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Clock"], {
-      className: "align-middle text-primary",
-      width: "18",
-      height: "18"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-middle"
-    }, " read time : ", node.frontmatter.time, " "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Text"], {
-      dangerouslySetInnerHTML: {
-        __html: node.frontmatter.description || node.excerpt
-      }
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-      to: node.fields.slug
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ReadMore"], {
-      className: "lined-link"
-    }, " read more \u2192 "))));
-  }))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (BlogIndex);
-const pageQuery = "518655681";
 
 /***/ }),
 
@@ -58754,84 +58169,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
   title: "About me"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_about__WEBPACK_IMPORTED_MODULE_3__["default"], null));
-
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
-
-/***/ }),
-
-/***/ "./src/templates/blogs/post.js":
-/*!*************************************!*\
-  !*** ./src/templates/blogs/post.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout/index.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/seo */ "./src/components/seo.js");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather */ "./node_modules/react-feather/dist/index.js");
-/* harmony import */ var _components_styled_posts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/styled/posts */ "./src/components/styled/posts.js");
-/* harmony import */ var _components_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/common */ "./src/components/common/index.js");
-
-
-
-
-
-
-
-
-const BlogPost = ({
-  data,
-  pageContext,
-  location
-}) => {
-  const post = data.markdownRemark;
-  const siteTitle = data.site.siteMetadata.title;
-  const {
-    previous,
-    next
-  } = pageContext;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    location: location,
-    title: siteTitle
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: post.frontmatter.title,
-    description: post.frontmatter.description || post.excerpt
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["Intro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["ArticlePost"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["Title"], null, post.frontmatter.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Calendar"], {
-    className: "align-middle text-primary",
-    width: "18",
-    height: "18"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "align-middle"
-  }, " date published : ", post.frontmatter.date, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Clock"], {
-    className: "align-middle text-primary",
-    width: "18",
-    height: "18"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "align-middle"
-  }, " read time : ", post.frontmatter.time, " mins "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["ArticleBody"], {
-    dangerouslySetInnerHTML: {
-      __html: post.html
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionList"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionLi"], null, previous && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: previous.fields.slug,
-    rel: "prev"
-  }, "\u2190 ", previous.frontmatter.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionLi"], null, next && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: next.fields.slug,
-    rel: "next"
-  }, next.frontmatter.title, " \u2192"))))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
-const data = "2548945899";
 
 /***/ }),
 
@@ -58898,17 +58239,6 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_get__;
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_isObject__;
-
-/***/ }),
-
-/***/ "lodash/kebabCase":
-/*!*******************************************************************************!*\
-  !*** external "/home/nikhil/Desktop/Sachai/node_modules/lodash/kebabCase.js" ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_kebabCase__;
 
 /***/ }),
 
