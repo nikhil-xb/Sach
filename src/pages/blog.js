@@ -23,7 +23,7 @@ const BlogIndex = ({ data }) => {
             </SubTitle>
             <HeaderIntro>
               <SubText>
-                Articles on front-end design engineering, focused on HTML, CSS, SVG, accessiblity, and everything in between, with practical tips from real projects. Included here are links to articles published on magazines.
+                Articles on Deep Learning and AI, focused on frameworks such as PyTorch, Scikit Learn, etc. Includes blogs on feature engineering, computer vision and everything in between with practical tips from real world projects
               </SubText>
               <CategoriesTags /> 
             </HeaderIntro>
@@ -39,20 +39,20 @@ const BlogIndex = ({ data }) => {
                           <Img fluid={node.frontmatter.image.childImageSharp.fluid} title="work title" />
                         </Link> 
                       </div>
-                      <SmallText> 
+                      {/* <SmallText> 
                         <UnderLink href={node.frontmatter.imageCredit} target="_blank" title="image credit">
                           Image Credit
                         </UnderLink>
-                      </SmallText>
+                      </SmallText> */}
                     </div>
                     
                     <div className="content">
                       <header>
                         <SmallText> 
-                          <span className="align-middle">{node.frontmatter.categories.map((item, index) => (
+                          <span className="align-left">{node.frontmatter.categories.map((item, index) => (
                             <Link to={`/${kebabCase(item)}`} key={index}>
-                              <span className="align-middle text-primary text-underline">#{item}</span>
-                              {node.frontmatter.categories.length !== index + 1 ? <span className="align-middle text-primary"> , </span> : ""}
+                              <span className="align-left text-primary text-underline">#{item}</span>
+                              {node.frontmatter.categories.length !== index + 1 ? <span className="align-left text-primary"> , </span> : ""}
                             </Link>
                           ))} </span>
                         </SmallText>
@@ -118,7 +118,7 @@ export const pageQuery = graphql`
               }
             }
             categories
-            imageCredit
+            
             description
           }
         }

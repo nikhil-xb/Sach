@@ -112,7 +112,8 @@ exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-blog-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/blog.js */ "./src/pages/blog.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
+  "component---src-templates-blogs-post-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/blogs/post.js */ "./src/templates/blogs/post.js")))
   }
 
 
@@ -57631,7 +57632,7 @@ module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"allMarkdownRemark\":{\"group\":[{\"fieldValue\":\"css\",\"totalCount\":3},{\"fieldValue\":\"frameworks\",\"totalCount\":1},{\"fieldValue\":\"javascript\",\"totalCount\":1},{\"fieldValue\":\"performance\",\"totalCount\":1},{\"fieldValue\":\"tricks\",\"totalCount\":1},{\"fieldValue\":\"web development\",\"totalCount\":1}]}}}");
+module.exports = JSON.parse("{\"data\":{\"allMarkdownRemark\":{\"group\":[{\"fieldValue\":\"AI\",\"totalCount\":1},{\"fieldValue\":\"Dropout\",\"totalCount\":1},{\"fieldValue\":\"Machine Learning\",\"totalCount\":1},{\"fieldValue\":\"Neural Network\",\"totalCount\":1}]}}}");
 
 /***/ }),
 
@@ -57794,8 +57795,8 @@ const About = () => {
   // `)
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_3__["SectionIntro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_3__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["AboutSection"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Title"], null, " Hey! I'm Nikhil \uD83D\uDC4B\uFE0F "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, "I am currently pursuing Bachelor's in Computer Science from ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     class: "text-primary lined-link"
-  }, "India"), ". I am a self taught programmer, a nerd for history and big time Chai lover."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " A litle over an year back I decided to teach myself Data Science. I started to learn code and enrolled my self to the excellent courses by Andrew Ng on Coursera. A few months back I have started using Kaggle and HackerEarth to improve my skills and be more competitve in Data Science and Machine Learning. I am currently also dabbling into the world of OpenSource."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " After spending around 8 hours a day studying, coding and completing projects, I realized that I'd learnt a lot more in just a couple of months than I did in my entire degree program."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " Learning the fundamentals of statistics, probability, programming and business analytics is no easy task. These are entire fields on their own, and it would take a lifetime to master even one of them."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, "  This blog will serve as a home for all my thoughts, notes and experiences ranging from Programming, Math, Machine Learning and Computer Vision.  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " (The site is currently on development stage and might break this site time to time, so please bear with me.) "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_3__["ResumeButton"], {
-    href: "resume.pdf",
+  }, "India"), ". I am a self taught programmer, a nerd for history and big time Chai lover."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " A litle over an year back I decided to teach myself Data Science. I started to learn code and enrolled my self to the excellent courses by Andrew Ng on Coursera. A few months back I have started using Kaggle and HackerEarth to improve my skills and be more competitve in Data Science and Machine Learning. I am currently also dabbling into the world of OpenSource."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " After spending around 8 hours a day studying, coding and completing projects, I realized that I'd learnt a lot more in just a couple of months than I did in my entire degree program."), "Nikhil Kumar's Cv", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " Learning the fundamentals of statistics, probability, programming and business analytics is no easy task. These are entire fields on their own, and it would take a lifetime to master even one of them."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, "  This blog will serve as a home for all my thoughts, notes and experiences ranging from Programming, Math, Machine Learning and Computer Vision.  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Text"], null, " (The site is currently on development stage and might break this site time to time, so please bear with me.) "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common__WEBPACK_IMPORTED_MODULE_3__["ResumeButton"], {
+    href: "Nikhil Kumar's Cv.pdf",
     target: "_blank"
   }, " Download resume "))))));
 };
@@ -58448,6 +58449,48 @@ SEO.propTypes = {
 
 /***/ }),
 
+/***/ "./src/components/styled/posts.js":
+/*!****************************************!*\
+  !*** ./src/components/styled/posts.js ***!
+  \****************************************/
+/*! exports provided: Intro, Title, ArticlePost, SmallText, ArticleBody, NaviagtionList, NaviagtionLi */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Intro", function() { return Intro; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArticlePost", function() { return ArticlePost; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SmallText", function() { return SmallText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArticleBody", function() { return ArticleBody; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NaviagtionList", function() { return NaviagtionList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NaviagtionLi", function() { return NaviagtionLi; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+
+const Intro = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "posts__Intro"
+})(["padding:8rem 0 4rem 0;text-align:left;"]);
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConfig({
+  displayName: "posts__Title"
+})(["font-size:2rem;text-transform:capitalize;font-family:\"GT-Walsheim-Pro-Bold\";"]);
+const ArticlePost = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].article.withConfig({
+  displayName: "posts__ArticlePost"
+})(["margin-bottom:5rem;padding-bottom:1rem;max-width:60rem;margin:auto;text-align:center;img[src$=\"imgresponsive\"]{max-width:80%;}"]);
+const SmallText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].small.withConfig({
+  displayName: "posts__SmallText"
+})(["font-size:.89rem;padding-right:10px;font-family:\"GT-Walsheim-Pro-Regular\";> span{padding-left:5px;}"]);
+const ArticleBody = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "posts__ArticleBody"
+})(["margin-top:5rem;p{font-size:1.5rem;font-family:\"GT-Walsheim-Pro-Medium\";}"]);
+const NaviagtionList = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].ul.withConfig({
+  displayName: "posts__NaviagtionList"
+})(["display:grid;grid-template-columns:1fr 1fr;grid-column-gap:5rem;grid-row-gap:5rem;list-style:none;padding:0;border-top:4px solid #ff2d2d;border-bottom:4px solid #ff2d2d;"]);
+const NaviagtionLi = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].li.withConfig({
+  displayName: "posts__NaviagtionLi"
+})(["padding:2rem 0;&:last-child{text-align:right;}a{font-size:1.3rem;font-family:\"GT-Walsheim-Pro-Medium\";}"]);
+
+/***/ }),
+
 /***/ "./src/data/data.js":
 /*!**************************!*\
   !*** ./src/data/data.js ***!
@@ -58630,7 +58673,7 @@ const BlogIndex = ({
   const posts = data.allMarkdownRemark.edges;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Blog Home Page"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Intro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubTitle"], null, "Articles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["HeaderIntro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubText"], null, "Articles on front-end design engineering, focused on HTML, CSS, SVG, accessiblity, and everything in between, with practical tips from real projects. Included here are links to articles published on magazines."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CategoriesTags_categoriesTags__WEBPACK_IMPORTED_MODULE_7__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Intro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubTitle"], null, "Articles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["HeaderIntro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SubText"], null, "Articles on Deep Learning and AI, focused on frameworks such as PyTorch, Scikit Learn, etc. Includes blogs on feature engineering, computer vision and everything in between with practical tips from real world projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CategoriesTags_categoriesTags__WEBPACK_IMPORTED_MODULE_7__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], {
     className: "wrapper"
   }, posts.map(({
     node
@@ -58647,21 +58690,17 @@ const BlogIndex = ({
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_5___default.a, {
       fluid: node.frontmatter.image.childImageSharp.fluid,
       title: "work title"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["UnderLink"], {
-      href: node.frontmatter.imageCredit,
-      target: "_blank",
-      title: "image credit"
-    }, "Image Credit"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "content"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-middle"
+      className: "align-left"
     }, node.frontmatter.categories.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
       to: `/${lodash_kebabCase__WEBPACK_IMPORTED_MODULE_8___default()(item)}`,
       key: index
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-middle text-primary text-underline"
+      className: "align-left text-primary text-underline"
     }, "#", item), node.frontmatter.categories.length !== index + 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "align-middle text-primary"
+      className: "align-left text-primary"
     }, " , ") : "")), " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["Title"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
       className: "text-primary",
       style: {
@@ -58693,7 +58732,7 @@ const BlogIndex = ({
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogIndex);
-const pageQuery = "3099534405";
+const pageQuery = "518655681";
 
 /***/ }),
 
@@ -58721,6 +58760,78 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_about__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/templates/blogs/post.js":
+/*!*************************************!*\
+  !*** ./src/templates/blogs/post.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/layout */ "./src/components/layout/index.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/seo */ "./src/components/seo.js");
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-feather */ "./node_modules/react-feather/dist/index.js");
+/* harmony import */ var _components_styled_posts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/styled/posts */ "./src/components/styled/posts.js");
+/* harmony import */ var _components_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/common */ "./src/components/common/index.js");
+
+
+
+
+
+
+
+
+const BlogPost = ({
+  data,
+  pageContext,
+  location
+}) => {
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const {
+    previous,
+    next
+  } = pageContext;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    location: location,
+    title: siteTitle
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: post.frontmatter.title,
+    description: post.frontmatter.description || post.excerpt
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["Intro"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common__WEBPACK_IMPORTED_MODULE_6__["ContainerLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["ArticlePost"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["Title"], null, post.frontmatter.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Calendar"], {
+    className: "align-middle text-primary",
+    width: "18",
+    height: "18"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "align-middle"
+  }, " date published : ", post.frontmatter.date, " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["SmallText"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_feather__WEBPACK_IMPORTED_MODULE_4__["Clock"], {
+    className: "align-middle text-primary",
+    width: "18",
+    height: "18"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "align-middle"
+  }, " read time : ", post.frontmatter.time, " mins "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["ArticleBody"], {
+    dangerouslySetInnerHTML: {
+      __html: post.html
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionList"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionLi"], null, previous && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: previous.fields.slug,
+    rel: "prev"
+  }, "\u2190 ", previous.frontmatter.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styled_posts__WEBPACK_IMPORTED_MODULE_5__["NaviagtionLi"], null, next && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: next.fields.slug,
+    rel: "next"
+  }, next.frontmatter.title, " \u2192"))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
+const data = "2548945899";
 
 /***/ }),
 

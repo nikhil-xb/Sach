@@ -41,12 +41,12 @@ const Categories = ({ data }) => {
                         <Img fluid={node.frontmatter.image.childImageSharp.fluid} title="work title" />
                       </Link> 
                     </div>
-                    <SmallText>
+                    {/* <SmallText>
                       Image Credits : 
                       <UnderLink href={node.frontmatter.imageCredit} target="_blank" title="image credit">
                         {node.frontmatter.imageCredit}
                       </UnderLink>
-                    </SmallText>
+                    </SmallText> */}
                   </div>
                   
                   <div className="content">
@@ -142,7 +142,7 @@ export const pageQuery = graphql`
               }
             }
             categories
-            imageCredit
+            
             description
           }
         }
