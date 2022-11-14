@@ -76,10 +76,6 @@ const About = () => {
               I am currently pursuing Bachelor's in Computer Science from <b class="text-primary lined-link">India</b>. I am a self taught programmer, a nerd for history and big time Chai lover.</Text>
               <Text> A little over an year back I decided to teach myself Data Science. I started to learn code and enrolled my self to the excellent courses by Andrew Ng on Coursera. A few months back I have started using Kaggle and HackerEarth to improve my skills and be more competitve in Data Science and Machine Learning. I am currently also dabbling into the world of OpenSource.</Text>
               <Text> After spending around 8 hours a day studying, coding and completing projects, I realized that I'd learnt a lot more in just a couple of months than I did in my entire degree program.</Text>
-<<<<<<< HEAD
-           
-=======
->>>>>>> 3bf436f4d7267ccd0a74407761bd83c84a6b268d
               <Text> Learning the fundamentals of statistics, probability, programming and business analytics is no easy task. These are entire fields on their own, and it would take a lifetime to master even one of them.</Text>
               
               <Text>  This blog will serve as a home for all my thoughts, notes and experiences ranging from Programming, Math, Machine Learning and Computer Vision.  </Text>
