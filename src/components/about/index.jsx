@@ -78,7 +78,6 @@ const About = () => {
               <Text> After spending around 8 hours a day studying, coding and completing projects, I realized that I'd learnt a lot more in just a couple of months than I did in my entire degree program.</Text>
               <Text> Learning the fundamentals of statistics, probability, programming and business analytics is no easy task. These are entire fields on their own, and it would take a lifetime to master even one of them.</Text>
               <Text>  This blog will serve as a home for all my thoughts, notes and experiences ranging from Programming, Math, Machine Learning and Computer Vision.  </Text>
-              <Text> (The site is currently on development stage and might break this site time to time, so please bear with me.) </Text>
               <ResumeButton href="Nikhil+Kumar's+Cv.pdf" target="_blank"> Download resume </ResumeButton>
             </div>
             
