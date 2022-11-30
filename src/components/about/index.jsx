@@ -81,7 +81,7 @@ const About = () => {
               
               <Text>  This blog will serve as a home for all my thoughts, notes and experiences ranging from Programming, Math, Machine Learning and Computer Vision.  </Text>
               <Text> (The site is currently on development stage and might break this site time to time, so please bear with me.) </Text>
-              <ResumeButton href="Nikhil Kumar's Cv.pdf" target="_blank"> Download resume </ResumeButton>
+              <ResumeButton href="Nikhil+Kumar's+Cv.pdf" target="_blank"> Download resume </ResumeButton>
             </div>
             
           </AboutSection>
